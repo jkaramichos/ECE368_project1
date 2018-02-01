@@ -1,0 +1,88 @@
+//fxn declarations for all customer fxns
+
+
+//mode()
+/*
+
+	mode 1 generate interarrival times
+
+*/
+
+
+//mode 2()
+/*
+
+QUESTIONS:
+1.) when is first arrival time? t = 0? or do we generate one?
+
+
+NOTES:
+1.) mode 2 read actual systme time for arrivals
+
+
+next_customer = scan file for line 1
+system_time = 0;
+
+create customer node with data from line
+{
+	arrival_time = column1
+	priority = column 2
+	service_time = column_3
+}
+
+
+
+is server busy? 
+no {
+
+
+server = 1 
+server_Customer = next_customer
+next_customer = read next line
+
+
+departure_time.server_customer = arrival_time + service_time
+
+
+if (arrival_time.next_customer < departure_time.server_customer)
+{
+	system_time = arrival_time.next_customer;
+}
+else
+{
+	system_time = departure_time.server_customer;
+}
+
+
+
+}
+
+
+yes {
+
+	enqueue next customer
+	next_customer = read next line (create new customer node)
+
+	if(departure_time.server == system_time)
+	{
+		get data from the serviced customer
+		pop next customer from queue
+		update all server_customer variables
+		delete the serviced customer
+
+	}
+
+	//update time
+	if (arrival_time.next_customer < departure_time.server_customer)
+	{
+		system_time = arrival_time.next_customer;
+	}
+	else
+	{
+		system_time = departure_time.server_customer;
+	}
+}
+
+
+
+*/
