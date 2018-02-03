@@ -14,24 +14,18 @@ int main(int argc, char** argv){
 
 	if(argc == 5) { //mode 1
 		
-		int lamb_0 = atoi(argv[1]);
-		int lamb_1 = atoi(argv[2]);
-		int mu = atoi(argv[3]);
+		double lamb_0 = atoi(argv[1]);
+		double lamb_1 = atoi(argv[2]);
+		double mu = atoi(argv[3]);
 		int total_tasks = atoi(argv[4]);
 	
-		printf("lamb_0 = %d\nlamb_1 = %d\nmu = %d\ntotal_tasks = %d\n", lamb_0, lamb_1, mu, total_tasks);
+		printf("lamb_0 = %f\nlamb_1 = %f\nmu = %f\ntotal_tasks = %d\n", lamb_0, lamb_1, mu, total_tasks);
 
 		//call mode1();
 	}
 	
 	else { //mode 2
-		
 		char* file_name = argv[1]; 
-		
-
-		printf("file_name = %s\n", file_name);
-	
-
 		mode_2(file_name);
 	}
 	
