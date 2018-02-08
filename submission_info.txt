@@ -1,0 +1,9 @@
+#---------------------------------------------------------------------
+# NAMES: JOHN D KARAMICHOS, AESON AKHRAS
+# USERNAMES: jkarami, aakhras
+#
+# We used the following command to compile our code:
+# gcc -g -std=c99 -lm -Wall -Wshadow -Wshadow-pedantic -Wvla -Werror simulation.c simulation_main.c -o simulation
+#
+#
+#---------------------------------------------------------------------

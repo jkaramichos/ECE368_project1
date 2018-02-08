@@ -2,10 +2,6 @@
 #include <stdlib.h>
 #include "simulation.h"
 
-
-//output_file = proj1-a_output
-
-
 int main(int argc, char** argv){
 
 	if(!(argc == 2 || argc == 5)) { 
@@ -14,24 +10,21 @@ int main(int argc, char** argv){
 
 	if(argc == 5) { //mode 1
 		
-		int lamb_0 = atoi(argv[1]);
-		int lamb_1 = atoi(argv[2]);
-		int mu = atoi(argv[3]);
+		double lamb_0 = atof(argv[1]);
+		double lamb_1 = atof(argv[2]);
+		double mu = atof(argv[3]);
 		int total_tasks = atoi(argv[4]);
-	
-		printf("lamb_0 = %d\nlamb_1 = %d\nmu = %d\ntotal_tasks = %d\n", lamb_0, lamb_1, mu, total_tasks);
 
-		//call mode1();
+		if (!(lamb_0 + lamb_1 < mu)){
+			printf("Error!: lamb_0 + lamb_1 must be less than mu\n");
+			return EXIT_FAILURE;
+		}
+
+		mode_1(lamb_0, lamb_1, mu, total_tasks);
 	}
 	
 	else { //mode 2
-		
 		char* file_name = argv[1]; 
-		
-
-		printf("file_name = %s\n", file_name);
-	
-
 		mode_2(file_name);
 	}
 	
