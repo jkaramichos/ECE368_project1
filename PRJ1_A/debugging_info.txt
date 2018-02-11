@@ -1,0 +1,2626 @@
+
+
+Iteration: 0
+System_time: 0
+Queue Size: 0
+cum_queue_size: 0
+wait_time_0: 0
+wait_time_1: 0
+CPU_busy_time: 0
+SERVER NODE: 	
+SERVICE QUEUE: 	
+NEXT EVENT:      0 0 1 a 0,	
+FEL:          	0 1 9 a 0,	2 0 18 a 2,	10 1 1 a 10,	13 1 1 a 13,	18 1 2 a 18,	21 0 4 a 21,	24 1 10 a 24,	28 1 1 a 28,	29 1 1 a 29,	31 1 4 a 31,	34 1 2 a 34,	
+
+
+Iteration: 1
+System_time: 0
+Queue Size: 0
+cum_queue_size: 0
+wait_time_0: 0
+wait_time_1: 0
+CPU_busy_time: 0
+SERVER NODE: 	0 0 1 a 0,	
+SERVICE QUEUE: 	
+NEXT EVENT:      0 1 9 a 0,	
+FEL:          	0 0 1 d 1,	2 0 18 a 2,	10 1 1 a 10,	13 1 1 a 13,	18 1 2 a 18,	21 0 4 a 21,	24 1 10 a 24,	28 1 1 a 28,	29 1 1 a 29,	31 1 4 a 31,	34 1 2 a 34,	
+
+
+Iteration: 2
+System_time: 0
+Queue Size: 1
+cum_queue_size: 0
+wait_time_0: 0
+wait_time_1: 0
+CPU_busy_time: 0
+SERVER NODE: 	0 0 1 a 0,	
+SERVICE QUEUE: 	0 1 9 a 69,	
+NEXT EVENT:      0 0 1 d 1,	
+FEL:          	2 0 18 a 2,	10 1 1 a 10,	13 1 1 a 13,	18 1 2 a 18,	21 0 4 a 21,	24 1 10 a 24,	28 1 1 a 28,	29 1 1 a 29,	31 1 4 a 31,	34 1 2 a 34,	35 1 21 a 35,	
+
+
+Iteration: 3
+System_time: 1
+Queue Size: 0
+cum_queue_size: 0
+wait_time_0: 0
+wait_time_1: 1
+CPU_busy_time: 1
+SERVER NODE: 	0 1 9 a 10,	
+SERVICE QUEUE: 	
+NEXT EVENT:      2 0 18 a 2,	
+FEL:          	10 1 1 a 10,	0 1 9 d 10,	13 1 1 a 13,	18 1 2 a 18,	21 0 4 a 21,	24 1 10 a 24,	28 1 1 a 28,	29 1 1 a 29,	31 1 4 a 31,	34 1 2 a 34,	35 1 21 a 35,	
+
+
+Iteration: 4
+System_time: 2
+Queue Size: 1
+cum_queue_size: 0
+wait_time_0: 0
+wait_time_1: 1
+CPU_busy_time: 1
+SERVER NODE: 	0 1 9 a 10,	
+SERVICE QUEUE: 	2 0 18 a 69,	
+NEXT EVENT:      10 1 1 a 10,	
+FEL:          	0 1 9 d 10,	13 1 1 a 13,	18 1 2 a 18,	21 0 4 a 21,	24 1 10 a 24,	28 1 1 a 28,	29 1 1 a 29,	31 1 4 a 31,	34 1 2 a 34,	35 1 21 a 35,	37 0 19 a 37,	
+
+
+Iteration: 5
+System_time: 10
+Queue Size: 2
+cum_queue_size: 1
+wait_time_0: 0
+wait_time_1: 1
+CPU_busy_time: 1
+SERVER NODE: 	0 1 9 a 10,	
+SERVICE QUEUE: 	2 0 18 a 69,	10 1 1 a 69,	
+NEXT EVENT:      0 1 9 d 10,	
+FEL:          	13 1 1 a 13,	18 1 2 a 18,	21 0 4 a 21,	24 1 10 a 24,	28 1 1 a 28,	29 1 1 a 29,	31 1 4 a 31,	34 1 2 a 34,	35 1 21 a 35,	37 0 19 a 37,	39 1 7 a 39,	
+
+
+Iteration: 6
+System_time: 10
+Queue Size: 1
+cum_queue_size: 1
+wait_time_0: 8
+wait_time_1: 1
+CPU_busy_time: 10
+SERVER NODE: 	2 0 18 a 28,	
+SERVICE QUEUE: 	10 1 1 a 69,	
+NEXT EVENT:      13 1 1 a 13,	
+FEL:          	18 1 2 a 18,	21 0 4 a 21,	24 1 10 a 24,	28 1 1 a 28,	2 0 18 d 28,	29 1 1 a 29,	31 1 4 a 31,	34 1 2 a 34,	35 1 21 a 35,	37 0 19 a 37,	39 1 7 a 39,	
+
+
+Iteration: 7
+System_time: 13
+Queue Size: 2
+cum_queue_size: 2
+wait_time_0: 8
+wait_time_1: 1
+CPU_busy_time: 10
+SERVER NODE: 	2 0 18 a 28,	
+SERVICE QUEUE: 	10 1 1 a 69,	13 1 1 a 69,	
+NEXT EVENT:      18 1 2 a 18,	
+FEL:          	21 0 4 a 21,	24 1 10 a 24,	28 1 1 a 28,	2 0 18 d 28,	29 1 1 a 29,	31 1 4 a 31,	34 1 2 a 34,	35 1 21 a 35,	37 0 19 a 37,	39 1 7 a 39,	43 0 3 a 43,	
+
+
+Iteration: 8
+System_time: 18
+Queue Size: 3
+cum_queue_size: 4
+wait_time_0: 8
+wait_time_1: 1
+CPU_busy_time: 10
+SERVER NODE: 	2 0 18 a 28,	
+SERVICE QUEUE: 	10 1 1 a 69,	13 1 1 a 69,	18 1 2 a 69,	
+NEXT EVENT:      21 0 4 a 21,	
+FEL:          	24 1 10 a 24,	28 1 1 a 28,	2 0 18 d 28,	29 1 1 a 29,	31 1 4 a 31,	34 1 2 a 34,	35 1 21 a 35,	37 0 19 a 37,	39 1 7 a 39,	43 0 3 a 43,	52 1 5 a 52,	
+
+
+Iteration: 9
+System_time: 21
+Queue Size: 4
+cum_queue_size: 7
+wait_time_0: 8
+wait_time_1: 1
+CPU_busy_time: 10
+SERVER NODE: 	2 0 18 a 28,	
+SERVICE QUEUE: 	21 0 4 a 69,	10 1 1 a 69,	13 1 1 a 69,	18 1 2 a 69,	
+NEXT EVENT:      24 1 10 a 24,	
+FEL:          	28 1 1 a 28,	2 0 18 d 28,	29 1 1 a 29,	31 1 4 a 31,	34 1 2 a 34,	35 1 21 a 35,	37 0 19 a 37,	39 1 7 a 39,	43 0 3 a 43,	52 1 5 a 52,	56 1 2 a 56,	
+
+
+Iteration: 10
+System_time: 24
+Queue Size: 5
+cum_queue_size: 11
+wait_time_0: 8
+wait_time_1: 1
+CPU_busy_time: 10
+SERVER NODE: 	2 0 18 a 28,	
+SERVICE QUEUE: 	21 0 4 a 69,	10 1 1 a 69,	13 1 1 a 69,	18 1 2 a 69,	24 1 10 a 69,	
+NEXT EVENT:      28 1 1 a 28,	
+FEL:          	2 0 18 d 28,	29 1 1 a 29,	31 1 4 a 31,	34 1 2 a 34,	35 1 21 a 35,	37 0 19 a 37,	39 1 7 a 39,	43 0 3 a 43,	52 1 5 a 52,	56 1 2 a 56,	58 1 10 a 58,	
+
+
+Iteration: 11
+System_time: 28
+Queue Size: 6
+cum_queue_size: 16
+wait_time_0: 8
+wait_time_1: 1
+CPU_busy_time: 10
+SERVER NODE: 	2 0 18 a 28,	
+SERVICE QUEUE: 	21 0 4 a 69,	10 1 1 a 69,	13 1 1 a 69,	18 1 2 a 69,	24 1 10 a 69,	28 1 1 a 69,	
+NEXT EVENT:      2 0 18 d 28,	
+FEL:          	29 1 1 a 29,	31 1 4 a 31,	34 1 2 a 34,	35 1 21 a 35,	37 0 19 a 37,	39 1 7 a 39,	43 0 3 a 43,	52 1 5 a 52,	56 1 2 a 56,	58 1 10 a 58,	63 1 4 a 63,	
+
+
+Iteration: 12
+System_time: 28
+Queue Size: 5
+cum_queue_size: 16
+wait_time_0: 15
+wait_time_1: 1
+CPU_busy_time: 28
+SERVER NODE: 	21 0 4 a 32,	
+SERVICE QUEUE: 	10 1 1 a 69,	13 1 1 a 69,	18 1 2 a 69,	24 1 10 a 69,	28 1 1 a 69,	
+NEXT EVENT:      29 1 1 a 29,	
+FEL:          	31 1 4 a 31,	21 0 4 d 32,	34 1 2 a 34,	35 1 21 a 35,	37 0 19 a 37,	39 1 7 a 39,	43 0 3 a 43,	52 1 5 a 52,	56 1 2 a 56,	58 1 10 a 58,	63 1 4 a 63,	
+
+
+Iteration: 13
+System_time: 29
+Queue Size: 6
+cum_queue_size: 21
+wait_time_0: 15
+wait_time_1: 1
+CPU_busy_time: 28
+SERVER NODE: 	21 0 4 a 32,	
+SERVICE QUEUE: 	10 1 1 a 69,	13 1 1 a 69,	18 1 2 a 69,	24 1 10 a 69,	28 1 1 a 69,	29 1 1 a 69,	
+NEXT EVENT:      31 1 4 a 31,	
+FEL:          	21 0 4 d 32,	34 1 2 a 34,	35 1 21 a 35,	37 0 19 a 37,	39 1 7 a 39,	43 0 3 a 43,	52 1 5 a 52,	56 1 2 a 56,	58 1 10 a 58,	63 1 4 a 63,	66 1 2 a 66,	
+
+
+Iteration: 14
+System_time: 31
+Queue Size: 7
+cum_queue_size: 27
+wait_time_0: 15
+wait_time_1: 1
+CPU_busy_time: 28
+SERVER NODE: 	21 0 4 a 32,	
+SERVICE QUEUE: 	10 1 1 a 69,	13 1 1 a 69,	18 1 2 a 69,	24 1 10 a 69,	28 1 1 a 69,	29 1 1 a 69,	31 1 4 a 69,	
+NEXT EVENT:      21 0 4 d 32,	
+FEL:          	34 1 2 a 34,	35 1 21 a 35,	37 0 19 a 37,	39 1 7 a 39,	43 0 3 a 43,	52 1 5 a 52,	56 1 2 a 56,	58 1 10 a 58,	63 1 4 a 63,	66 1 2 a 66,	71 0 7 a 71,	
+
+
+Iteration: 15
+System_time: 32
+Queue Size: 6
+cum_queue_size: 27
+wait_time_0: 15
+wait_time_1: 23
+CPU_busy_time: 32
+SERVER NODE: 	10 1 1 a 33,	
+SERVICE QUEUE: 	13 1 1 a 69,	18 1 2 a 69,	24 1 10 a 69,	28 1 1 a 69,	29 1 1 a 69,	31 1 4 a 69,	
+NEXT EVENT:      10 1 1 d 33,	
+FEL:          	34 1 2 a 34,	35 1 21 a 35,	37 0 19 a 37,	39 1 7 a 39,	43 0 3 a 43,	52 1 5 a 52,	56 1 2 a 56,	58 1 10 a 58,	63 1 4 a 63,	66 1 2 a 66,	71 0 7 a 71,	
+
+
+Iteration: 16
+System_time: 33
+Queue Size: 5
+cum_queue_size: 27
+wait_time_0: 15
+wait_time_1: 43
+CPU_busy_time: 33
+SERVER NODE: 	13 1 1 a 34,	
+SERVICE QUEUE: 	18 1 2 a 69,	24 1 10 a 69,	28 1 1 a 69,	29 1 1 a 69,	31 1 4 a 69,	
+NEXT EVENT:      34 1 2 a 34,	
+FEL:          	13 1 1 d 34,	35 1 21 a 35,	37 0 19 a 37,	39 1 7 a 39,	43 0 3 a 43,	52 1 5 a 52,	56 1 2 a 56,	58 1 10 a 58,	63 1 4 a 63,	66 1 2 a 66,	71 0 7 a 71,	
+
+
+Iteration: 17
+System_time: 34
+Queue Size: 6
+cum_queue_size: 32
+wait_time_0: 15
+wait_time_1: 43
+CPU_busy_time: 33
+SERVER NODE: 	13 1 1 a 34,	
+SERVICE QUEUE: 	18 1 2 a 69,	24 1 10 a 69,	28 1 1 a 69,	29 1 1 a 69,	31 1 4 a 69,	34 1 2 a 69,	
+NEXT EVENT:      13 1 1 d 34,	
+FEL:          	35 1 21 a 35,	37 0 19 a 37,	39 1 7 a 39,	43 0 3 a 43,	52 1 5 a 52,	56 1 2 a 56,	58 1 10 a 58,	63 1 4 a 63,	66 1 2 a 66,	71 0 7 a 71,	73 1 2 a 73,	
+
+
+Iteration: 18
+System_time: 34
+Queue Size: 5
+cum_queue_size: 32
+wait_time_0: 15
+wait_time_1: 59
+CPU_busy_time: 34
+SERVER NODE: 	18 1 2 a 36,	
+SERVICE QUEUE: 	24 1 10 a 69,	28 1 1 a 69,	29 1 1 a 69,	31 1 4 a 69,	34 1 2 a 69,	
+NEXT EVENT:      35 1 21 a 35,	
+FEL:          	18 1 2 d 36,	37 0 19 a 37,	39 1 7 a 39,	43 0 3 a 43,	52 1 5 a 52,	56 1 2 a 56,	58 1 10 a 58,	63 1 4 a 63,	66 1 2 a 66,	71 0 7 a 71,	73 1 2 a 73,	
+
+
+Iteration: 19
+System_time: 35
+Queue Size: 6
+cum_queue_size: 37
+wait_time_0: 15
+wait_time_1: 59
+CPU_busy_time: 34
+SERVER NODE: 	18 1 2 a 36,	
+SERVICE QUEUE: 	24 1 10 a 69,	28 1 1 a 69,	29 1 1 a 69,	31 1 4 a 69,	34 1 2 a 69,	35 1 21 a 69,	
+NEXT EVENT:      18 1 2 d 36,	
+FEL:          	37 0 19 a 37,	39 1 7 a 39,	43 0 3 a 43,	52 1 5 a 52,	56 1 2 a 56,	58 1 10 a 58,	63 1 4 a 63,	66 1 2 a 66,	71 0 7 a 71,	73 1 2 a 73,	77 1 1 a 77,	
+
+
+Iteration: 20
+System_time: 36
+Queue Size: 5
+cum_queue_size: 37
+wait_time_0: 15
+wait_time_1: 71
+CPU_busy_time: 36
+SERVER NODE: 	24 1 10 a 46,	
+SERVICE QUEUE: 	28 1 1 a 69,	29 1 1 a 69,	31 1 4 a 69,	34 1 2 a 69,	35 1 21 a 69,	
+NEXT EVENT:      37 0 19 a 37,	
+FEL:          	39 1 7 a 39,	43 0 3 a 43,	24 1 10 d 46,	52 1 5 a 52,	56 1 2 a 56,	58 1 10 a 58,	63 1 4 a 63,	66 1 2 a 66,	71 0 7 a 71,	73 1 2 a 73,	77 1 1 a 77,	
+
+
+Iteration: 21
+System_time: 37
+Queue Size: 6
+cum_queue_size: 42
+wait_time_0: 15
+wait_time_1: 71
+CPU_busy_time: 36
+SERVER NODE: 	24 1 10 a 46,	
+SERVICE QUEUE: 	37 0 19 a 69,	28 1 1 a 69,	29 1 1 a 69,	31 1 4 a 69,	34 1 2 a 69,	35 1 21 a 69,	
+NEXT EVENT:      39 1 7 a 39,	
+FEL:          	43 0 3 a 43,	24 1 10 d 46,	52 1 5 a 52,	56 1 2 a 56,	58 1 10 a 58,	63 1 4 a 63,	66 1 2 a 66,	71 0 7 a 71,	73 1 2 a 73,	77 1 1 a 77,	78 0 11 a 78,	
+
+
+Iteration: 22
+System_time: 39
+Queue Size: 7
+cum_queue_size: 48
+wait_time_0: 15
+wait_time_1: 71
+CPU_busy_time: 36
+SERVER NODE: 	24 1 10 a 46,	
+SERVICE QUEUE: 	37 0 19 a 69,	28 1 1 a 69,	29 1 1 a 69,	31 1 4 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	
+NEXT EVENT:      43 0 3 a 43,	
+FEL:          	24 1 10 d 46,	52 1 5 a 52,	56 1 2 a 56,	58 1 10 a 58,	63 1 4 a 63,	66 1 2 a 66,	71 0 7 a 71,	73 1 2 a 73,	77 1 1 a 77,	78 0 11 a 78,	80 0 2 a 80,	
+
+
+Iteration: 23
+System_time: 43
+Queue Size: 8
+cum_queue_size: 55
+wait_time_0: 15
+wait_time_1: 71
+CPU_busy_time: 36
+SERVER NODE: 	24 1 10 a 46,	
+SERVICE QUEUE: 	37 0 19 a 69,	43 0 3 a 69,	28 1 1 a 69,	29 1 1 a 69,	31 1 4 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	
+NEXT EVENT:      24 1 10 d 46,	
+FEL:          	52 1 5 a 52,	56 1 2 a 56,	58 1 10 a 58,	63 1 4 a 63,	66 1 2 a 66,	71 0 7 a 71,	73 1 2 a 73,	77 1 1 a 77,	78 0 11 a 78,	80 0 2 a 80,	80 1 1 a 80,	
+
+
+Iteration: 24
+System_time: 46
+Queue Size: 7
+cum_queue_size: 55
+wait_time_0: 24
+wait_time_1: 71
+CPU_busy_time: 46
+SERVER NODE: 	37 0 19 a 65,	
+SERVICE QUEUE: 	43 0 3 a 69,	28 1 1 a 69,	29 1 1 a 69,	31 1 4 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	
+NEXT EVENT:      52 1 5 a 52,	
+FEL:          	56 1 2 a 56,	58 1 10 a 58,	63 1 4 a 63,	37 0 19 d 65,	66 1 2 a 66,	71 0 7 a 71,	73 1 2 a 73,	77 1 1 a 77,	78 0 11 a 78,	80 0 2 a 80,	80 1 1 a 80,	
+
+
+Iteration: 25
+System_time: 52
+Queue Size: 8
+cum_queue_size: 62
+wait_time_0: 24
+wait_time_1: 71
+CPU_busy_time: 46
+SERVER NODE: 	37 0 19 a 65,	
+SERVICE QUEUE: 	43 0 3 a 69,	28 1 1 a 69,	29 1 1 a 69,	31 1 4 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	
+NEXT EVENT:      56 1 2 a 56,	
+FEL:          	58 1 10 a 58,	63 1 4 a 63,	37 0 19 d 65,	66 1 2 a 66,	71 0 7 a 71,	73 1 2 a 73,	77 1 1 a 77,	78 0 11 a 78,	80 0 2 a 80,	80 1 1 a 80,	82 1 5 a 82,	
+
+
+Iteration: 26
+System_time: 56
+Queue Size: 9
+cum_queue_size: 70
+wait_time_0: 24
+wait_time_1: 71
+CPU_busy_time: 46
+SERVER NODE: 	37 0 19 a 65,	
+SERVICE QUEUE: 	43 0 3 a 69,	28 1 1 a 69,	29 1 1 a 69,	31 1 4 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	
+NEXT EVENT:      58 1 10 a 58,	
+FEL:          	63 1 4 a 63,	37 0 19 d 65,	66 1 2 a 66,	71 0 7 a 71,	73 1 2 a 73,	77 1 1 a 77,	78 0 11 a 78,	80 0 2 a 80,	80 1 1 a 80,	82 1 5 a 82,	84 0 2 a 84,	
+
+
+Iteration: 27
+System_time: 58
+Queue Size: 10
+cum_queue_size: 79
+wait_time_0: 24
+wait_time_1: 71
+CPU_busy_time: 46
+SERVER NODE: 	37 0 19 a 65,	
+SERVICE QUEUE: 	43 0 3 a 69,	28 1 1 a 69,	29 1 1 a 69,	31 1 4 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	
+NEXT EVENT:      63 1 4 a 63,	
+FEL:          	37 0 19 d 65,	66 1 2 a 66,	71 0 7 a 71,	73 1 2 a 73,	77 1 1 a 77,	78 0 11 a 78,	80 0 2 a 80,	80 1 1 a 80,	82 1 5 a 82,	84 0 2 a 84,	89 0 2 a 89,	
+
+
+Iteration: 28
+System_time: 63
+Queue Size: 11
+cum_queue_size: 89
+wait_time_0: 24
+wait_time_1: 71
+CPU_busy_time: 46
+SERVER NODE: 	37 0 19 a 65,	
+SERVICE QUEUE: 	43 0 3 a 69,	28 1 1 a 69,	29 1 1 a 69,	31 1 4 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	
+NEXT EVENT:      37 0 19 d 65,	
+FEL:          	66 1 2 a 66,	71 0 7 a 71,	73 1 2 a 73,	77 1 1 a 77,	78 0 11 a 78,	80 0 2 a 80,	80 1 1 a 80,	82 1 5 a 82,	84 0 2 a 84,	89 0 2 a 89,	90 0 6 a 90,	
+
+
+Iteration: 29
+System_time: 65
+Queue Size: 10
+cum_queue_size: 89
+wait_time_0: 46
+wait_time_1: 71
+CPU_busy_time: 65
+SERVER NODE: 	43 0 3 a 68,	
+SERVICE QUEUE: 	28 1 1 a 69,	29 1 1 a 69,	31 1 4 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	
+NEXT EVENT:      66 1 2 a 66,	
+FEL:          	43 0 3 d 68,	71 0 7 a 71,	73 1 2 a 73,	77 1 1 a 77,	78 0 11 a 78,	80 0 2 a 80,	80 1 1 a 80,	82 1 5 a 82,	84 0 2 a 84,	89 0 2 a 89,	90 0 6 a 90,	
+
+
+Iteration: 30
+System_time: 66
+Queue Size: 11
+cum_queue_size: 99
+wait_time_0: 46
+wait_time_1: 71
+CPU_busy_time: 65
+SERVER NODE: 	43 0 3 a 68,	
+SERVICE QUEUE: 	28 1 1 a 69,	29 1 1 a 69,	31 1 4 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	
+NEXT EVENT:      43 0 3 d 68,	
+FEL:          	71 0 7 a 71,	73 1 2 a 73,	77 1 1 a 77,	78 0 11 a 78,	80 0 2 a 80,	80 1 1 a 80,	82 1 5 a 82,	84 0 2 a 84,	89 0 2 a 89,	90 0 6 a 90,	90 1 2 a 90,	
+
+
+Iteration: 31
+System_time: 68
+Queue Size: 10
+cum_queue_size: 99
+wait_time_0: 46
+wait_time_1: 111
+CPU_busy_time: 68
+SERVER NODE: 	28 1 1 a 69,	
+SERVICE QUEUE: 	29 1 1 a 69,	31 1 4 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	
+NEXT EVENT:      28 1 1 d 69,	
+FEL:          	71 0 7 a 71,	73 1 2 a 73,	77 1 1 a 77,	78 0 11 a 78,	80 0 2 a 80,	80 1 1 a 80,	82 1 5 a 82,	84 0 2 a 84,	89 0 2 a 89,	90 0 6 a 90,	90 1 2 a 90,	
+
+
+Iteration: 32
+System_time: 69
+Queue Size: 9
+cum_queue_size: 99
+wait_time_0: 46
+wait_time_1: 151
+CPU_busy_time: 69
+SERVER NODE: 	29 1 1 a 70,	
+SERVICE QUEUE: 	31 1 4 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	
+NEXT EVENT:      29 1 1 d 70,	
+FEL:          	71 0 7 a 71,	73 1 2 a 73,	77 1 1 a 77,	78 0 11 a 78,	80 0 2 a 80,	80 1 1 a 80,	82 1 5 a 82,	84 0 2 a 84,	89 0 2 a 89,	90 0 6 a 90,	90 1 2 a 90,	
+
+
+Iteration: 33
+System_time: 70
+Queue Size: 8
+cum_queue_size: 99
+wait_time_0: 46
+wait_time_1: 190
+CPU_busy_time: 70
+SERVER NODE: 	31 1 4 a 74,	
+SERVICE QUEUE: 	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	
+NEXT EVENT:      71 0 7 a 71,	
+FEL:          	73 1 2 a 73,	31 1 4 d 74,	77 1 1 a 77,	78 0 11 a 78,	80 0 2 a 80,	80 1 1 a 80,	82 1 5 a 82,	84 0 2 a 84,	89 0 2 a 89,	90 0 6 a 90,	90 1 2 a 90,	
+
+
+Iteration: 34
+System_time: 71
+Queue Size: 9
+cum_queue_size: 107
+wait_time_0: 46
+wait_time_1: 190
+CPU_busy_time: 70
+SERVER NODE: 	31 1 4 a 74,	
+SERVICE QUEUE: 	71 0 7 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	
+NEXT EVENT:      73 1 2 a 73,	
+FEL:          	31 1 4 d 74,	77 1 1 a 77,	78 0 11 a 78,	80 0 2 a 80,	80 1 1 a 80,	82 1 5 a 82,	84 0 2 a 84,	89 0 2 a 89,	90 0 6 a 90,	90 1 2 a 90,	91 1 11 a 91,	
+
+
+Iteration: 35
+System_time: 73
+Queue Size: 10
+cum_queue_size: 116
+wait_time_0: 46
+wait_time_1: 190
+CPU_busy_time: 70
+SERVER NODE: 	31 1 4 a 74,	
+SERVICE QUEUE: 	71 0 7 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	
+NEXT EVENT:      31 1 4 d 74,	
+FEL:          	77 1 1 a 77,	78 0 11 a 78,	80 0 2 a 80,	80 1 1 a 80,	82 1 5 a 82,	84 0 2 a 84,	89 0 2 a 89,	90 0 6 a 90,	90 1 2 a 90,	91 1 11 a 91,	96 1 5 a 96,	
+
+
+Iteration: 36
+System_time: 74
+Queue Size: 9
+cum_queue_size: 116
+wait_time_0: 49
+wait_time_1: 190
+CPU_busy_time: 74
+SERVER NODE: 	71 0 7 a 81,	
+SERVICE QUEUE: 	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	
+NEXT EVENT:      77 1 1 a 77,	
+FEL:          	78 0 11 a 78,	80 0 2 a 80,	80 1 1 a 80,	71 0 7 d 81,	82 1 5 a 82,	84 0 2 a 84,	89 0 2 a 89,	90 0 6 a 90,	90 1 2 a 90,	91 1 11 a 91,	96 1 5 a 96,	
+
+
+Iteration: 37
+System_time: 77
+Queue Size: 10
+cum_queue_size: 125
+wait_time_0: 49
+wait_time_1: 190
+CPU_busy_time: 74
+SERVER NODE: 	71 0 7 a 81,	
+SERVICE QUEUE: 	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	
+NEXT EVENT:      78 0 11 a 78,	
+FEL:          	80 0 2 a 80,	80 1 1 a 80,	71 0 7 d 81,	82 1 5 a 82,	84 0 2 a 84,	89 0 2 a 89,	90 0 6 a 90,	90 1 2 a 90,	91 1 11 a 91,	96 1 5 a 96,	105 0 1 a 105,	
+
+
+Iteration: 38
+System_time: 78
+Queue Size: 11
+cum_queue_size: 135
+wait_time_0: 49
+wait_time_1: 190
+CPU_busy_time: 74
+SERVER NODE: 	71 0 7 a 81,	
+SERVICE QUEUE: 	78 0 11 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	
+NEXT EVENT:      80 0 2 a 80,	
+FEL:          	80 1 1 a 80,	71 0 7 d 81,	82 1 5 a 82,	84 0 2 a 84,	89 0 2 a 89,	90 0 6 a 90,	90 1 2 a 90,	91 1 11 a 91,	96 1 5 a 96,	105 0 1 a 105,	107 0 1 a 107,	
+
+
+Iteration: 39
+System_time: 80
+Queue Size: 12
+cum_queue_size: 146
+wait_time_0: 49
+wait_time_1: 190
+CPU_busy_time: 74
+SERVER NODE: 	71 0 7 a 81,	
+SERVICE QUEUE: 	78 0 11 a 69,	80 0 2 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	
+NEXT EVENT:      80 1 1 a 80,	
+FEL:          	71 0 7 d 81,	82 1 5 a 82,	84 0 2 a 84,	89 0 2 a 89,	90 0 6 a 90,	90 1 2 a 90,	91 1 11 a 91,	96 1 5 a 96,	105 0 1 a 105,	107 0 1 a 107,	111 0 1 a 111,	
+
+
+Iteration: 40
+System_time: 80
+Queue Size: 13
+cum_queue_size: 158
+wait_time_0: 49
+wait_time_1: 190
+CPU_busy_time: 74
+SERVER NODE: 	71 0 7 a 81,	
+SERVICE QUEUE: 	78 0 11 a 69,	80 0 2 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	
+NEXT EVENT:      71 0 7 d 81,	
+FEL:          	82 1 5 a 82,	84 0 2 a 84,	89 0 2 a 89,	90 0 6 a 90,	90 1 2 a 90,	91 1 11 a 91,	96 1 5 a 96,	105 0 1 a 105,	107 0 1 a 107,	111 0 1 a 111,	111 1 4 a 111,	
+
+
+Iteration: 41
+System_time: 81
+Queue Size: 12
+cum_queue_size: 158
+wait_time_0: 52
+wait_time_1: 190
+CPU_busy_time: 81
+SERVER NODE: 	78 0 11 a 92,	
+SERVICE QUEUE: 	80 0 2 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	
+NEXT EVENT:      82 1 5 a 82,	
+FEL:          	84 0 2 a 84,	89 0 2 a 89,	90 0 6 a 90,	90 1 2 a 90,	91 1 11 a 91,	78 0 11 d 92,	96 1 5 a 96,	105 0 1 a 105,	107 0 1 a 107,	111 0 1 a 111,	111 1 4 a 111,	
+
+
+Iteration: 42
+System_time: 82
+Queue Size: 13
+cum_queue_size: 170
+wait_time_0: 52
+wait_time_1: 190
+CPU_busy_time: 81
+SERVER NODE: 	78 0 11 a 92,	
+SERVICE QUEUE: 	80 0 2 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	
+NEXT EVENT:      84 0 2 a 84,	
+FEL:          	89 0 2 a 89,	90 0 6 a 90,	90 1 2 a 90,	91 1 11 a 91,	78 0 11 d 92,	96 1 5 a 96,	105 0 1 a 105,	107 0 1 a 107,	111 0 1 a 111,	111 1 4 a 111,	116 0 11 a 116,	
+
+
+Iteration: 43
+System_time: 84
+Queue Size: 14
+cum_queue_size: 183
+wait_time_0: 52
+wait_time_1: 190
+CPU_busy_time: 81
+SERVER NODE: 	78 0 11 a 92,	
+SERVICE QUEUE: 	80 0 2 a 69,	84 0 2 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	
+NEXT EVENT:      89 0 2 a 89,	
+FEL:          	90 0 6 a 90,	90 1 2 a 90,	91 1 11 a 91,	78 0 11 d 92,	96 1 5 a 96,	105 0 1 a 105,	107 0 1 a 107,	111 0 1 a 111,	111 1 4 a 111,	116 0 11 a 116,	117 1 1 a 117,	
+
+
+Iteration: 44
+System_time: 89
+Queue Size: 15
+cum_queue_size: 197
+wait_time_0: 52
+wait_time_1: 190
+CPU_busy_time: 81
+SERVER NODE: 	78 0 11 a 92,	
+SERVICE QUEUE: 	80 0 2 a 69,	84 0 2 a 69,	89 0 2 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	
+NEXT EVENT:      90 0 6 a 90,	
+FEL:          	90 1 2 a 90,	91 1 11 a 91,	78 0 11 d 92,	96 1 5 a 96,	105 0 1 a 105,	107 0 1 a 107,	111 0 1 a 111,	111 1 4 a 111,	116 0 11 a 116,	117 1 1 a 117,	122 0 3 a 122,	
+
+
+Iteration: 45
+System_time: 90
+Queue Size: 16
+cum_queue_size: 212
+wait_time_0: 52
+wait_time_1: 190
+CPU_busy_time: 81
+SERVER NODE: 	78 0 11 a 92,	
+SERVICE QUEUE: 	80 0 2 a 69,	84 0 2 a 69,	89 0 2 a 69,	90 0 6 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	
+NEXT EVENT:      90 1 2 a 90,	
+FEL:          	91 1 11 a 91,	78 0 11 d 92,	96 1 5 a 96,	105 0 1 a 105,	107 0 1 a 107,	111 0 1 a 111,	111 1 4 a 111,	116 0 11 a 116,	117 1 1 a 117,	122 0 3 a 122,	126 1 1 a 126,	
+
+
+Iteration: 46
+System_time: 90
+Queue Size: 17
+cum_queue_size: 228
+wait_time_0: 52
+wait_time_1: 190
+CPU_busy_time: 81
+SERVER NODE: 	78 0 11 a 92,	
+SERVICE QUEUE: 	80 0 2 a 69,	84 0 2 a 69,	89 0 2 a 69,	90 0 6 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	
+NEXT EVENT:      91 1 11 a 91,	
+FEL:          	78 0 11 d 92,	96 1 5 a 96,	105 0 1 a 105,	107 0 1 a 107,	111 0 1 a 111,	111 1 4 a 111,	116 0 11 a 116,	117 1 1 a 117,	122 0 3 a 122,	126 1 1 a 126,	137 1 2 a 137,	
+
+
+Iteration: 47
+System_time: 91
+Queue Size: 18
+cum_queue_size: 245
+wait_time_0: 52
+wait_time_1: 190
+CPU_busy_time: 81
+SERVER NODE: 	78 0 11 a 92,	
+SERVICE QUEUE: 	80 0 2 a 69,	84 0 2 a 69,	89 0 2 a 69,	90 0 6 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	
+NEXT EVENT:      78 0 11 d 92,	
+FEL:          	96 1 5 a 96,	105 0 1 a 105,	107 0 1 a 107,	111 0 1 a 111,	111 1 4 a 111,	116 0 11 a 116,	117 1 1 a 117,	122 0 3 a 122,	126 1 1 a 126,	137 1 2 a 137,	140 1 12 a 140,	
+
+
+Iteration: 48
+System_time: 92
+Queue Size: 17
+cum_queue_size: 245
+wait_time_0: 64
+wait_time_1: 190
+CPU_busy_time: 92
+SERVER NODE: 	80 0 2 a 94,	
+SERVICE QUEUE: 	84 0 2 a 69,	89 0 2 a 69,	90 0 6 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	
+NEXT EVENT:      80 0 2 d 94,	
+FEL:          	96 1 5 a 96,	105 0 1 a 105,	107 0 1 a 107,	111 0 1 a 111,	111 1 4 a 111,	116 0 11 a 116,	117 1 1 a 117,	122 0 3 a 122,	126 1 1 a 126,	137 1 2 a 137,	140 1 12 a 140,	
+
+
+Iteration: 49
+System_time: 94
+Queue Size: 16
+cum_queue_size: 245
+wait_time_0: 74
+wait_time_1: 190
+CPU_busy_time: 94
+SERVER NODE: 	84 0 2 a 96,	
+SERVICE QUEUE: 	89 0 2 a 69,	90 0 6 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	
+NEXT EVENT:      96 1 5 a 96,	
+FEL:          	84 0 2 d 96,	105 0 1 a 105,	107 0 1 a 107,	111 0 1 a 111,	111 1 4 a 111,	116 0 11 a 116,	117 1 1 a 117,	122 0 3 a 122,	126 1 1 a 126,	137 1 2 a 137,	140 1 12 a 140,	
+
+
+Iteration: 50
+System_time: 96
+Queue Size: 17
+cum_queue_size: 261
+wait_time_0: 74
+wait_time_1: 190
+CPU_busy_time: 94
+SERVER NODE: 	84 0 2 a 96,	
+SERVICE QUEUE: 	89 0 2 a 69,	90 0 6 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	
+NEXT EVENT:      84 0 2 d 96,	
+FEL:          	105 0 1 a 105,	107 0 1 a 107,	111 0 1 a 111,	111 1 4 a 111,	116 0 11 a 116,	117 1 1 a 117,	122 0 3 a 122,	126 1 1 a 126,	137 1 2 a 137,	140 1 12 a 140,	141 1 21 a 141,	
+
+
+Iteration: 51
+System_time: 96
+Queue Size: 16
+cum_queue_size: 261
+wait_time_0: 81
+wait_time_1: 190
+CPU_busy_time: 96
+SERVER NODE: 	89 0 2 a 98,	
+SERVICE QUEUE: 	90 0 6 a 69,	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	
+NEXT EVENT:      89 0 2 d 98,	
+FEL:          	105 0 1 a 105,	107 0 1 a 107,	111 0 1 a 111,	111 1 4 a 111,	116 0 11 a 116,	117 1 1 a 117,	122 0 3 a 122,	126 1 1 a 126,	137 1 2 a 137,	140 1 12 a 140,	141 1 21 a 141,	
+
+
+Iteration: 52
+System_time: 98
+Queue Size: 15
+cum_queue_size: 261
+wait_time_0: 89
+wait_time_1: 190
+CPU_busy_time: 98
+SERVER NODE: 	90 0 6 a 104,	
+SERVICE QUEUE: 	34 1 2 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	
+NEXT EVENT:      90 0 6 d 104,	
+FEL:          	105 0 1 a 105,	107 0 1 a 107,	111 0 1 a 111,	111 1 4 a 111,	116 0 11 a 116,	117 1 1 a 117,	122 0 3 a 122,	126 1 1 a 126,	137 1 2 a 137,	140 1 12 a 140,	141 1 21 a 141,	
+
+
+Iteration: 53
+System_time: 104
+Queue Size: 14
+cum_queue_size: 261
+wait_time_0: 89
+wait_time_1: 260
+CPU_busy_time: 104
+SERVER NODE: 	34 1 2 a 106,	
+SERVICE QUEUE: 	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	
+NEXT EVENT:      105 0 1 a 105,	
+FEL:          	34 1 2 d 106,	107 0 1 a 107,	111 0 1 a 111,	111 1 4 a 111,	116 0 11 a 116,	117 1 1 a 117,	122 0 3 a 122,	126 1 1 a 126,	137 1 2 a 137,	140 1 12 a 140,	141 1 21 a 141,	
+
+
+Iteration: 54
+System_time: 105
+Queue Size: 15
+cum_queue_size: 275
+wait_time_0: 89
+wait_time_1: 260
+CPU_busy_time: 104
+SERVER NODE: 	34 1 2 a 106,	
+SERVICE QUEUE: 	105 0 1 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	
+NEXT EVENT:      34 1 2 d 106,	
+FEL:          	107 0 1 a 107,	111 0 1 a 111,	111 1 4 a 111,	116 0 11 a 116,	117 1 1 a 117,	122 0 3 a 122,	126 1 1 a 126,	137 1 2 a 137,	140 1 12 a 140,	141 1 21 a 141,	145 1 7 a 145,	
+
+
+Iteration: 55
+System_time: 106
+Queue Size: 14
+cum_queue_size: 275
+wait_time_0: 90
+wait_time_1: 260
+CPU_busy_time: 106
+SERVER NODE: 	105 0 1 a 107,	
+SERVICE QUEUE: 	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	
+NEXT EVENT:      107 0 1 a 107,	
+FEL:          	105 0 1 d 107,	111 0 1 a 111,	111 1 4 a 111,	116 0 11 a 116,	117 1 1 a 117,	122 0 3 a 122,	126 1 1 a 126,	137 1 2 a 137,	140 1 12 a 140,	141 1 21 a 141,	145 1 7 a 145,	
+
+
+Iteration: 56
+System_time: 107
+Queue Size: 15
+cum_queue_size: 289
+wait_time_0: 90
+wait_time_1: 260
+CPU_busy_time: 106
+SERVER NODE: 	105 0 1 a 107,	
+SERVICE QUEUE: 	107 0 1 a 69,	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	
+NEXT EVENT:      105 0 1 d 107,	
+FEL:          	111 0 1 a 111,	111 1 4 a 111,	116 0 11 a 116,	117 1 1 a 117,	122 0 3 a 122,	126 1 1 a 126,	137 1 2 a 137,	140 1 12 a 140,	141 1 21 a 141,	145 1 7 a 145,	148 0 2 a 148,	
+
+
+Iteration: 57
+System_time: 107
+Queue Size: 14
+cum_queue_size: 289
+wait_time_0: 90
+wait_time_1: 260
+CPU_busy_time: 107
+SERVER NODE: 	107 0 1 a 108,	
+SERVICE QUEUE: 	35 1 21 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	
+NEXT EVENT:      107 0 1 d 108,	
+FEL:          	111 0 1 a 111,	111 1 4 a 111,	116 0 11 a 116,	117 1 1 a 117,	122 0 3 a 122,	126 1 1 a 126,	137 1 2 a 137,	140 1 12 a 140,	141 1 21 a 141,	145 1 7 a 145,	148 0 2 a 148,	
+
+
+Iteration: 58
+System_time: 108
+Queue Size: 13
+cum_queue_size: 289
+wait_time_0: 90
+wait_time_1: 333
+CPU_busy_time: 108
+SERVER NODE: 	35 1 21 a 129,	
+SERVICE QUEUE: 	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	
+NEXT EVENT:      111 0 1 a 111,	
+FEL:          	111 1 4 a 111,	116 0 11 a 116,	117 1 1 a 117,	122 0 3 a 122,	126 1 1 a 126,	35 1 21 d 129,	137 1 2 a 137,	140 1 12 a 140,	141 1 21 a 141,	145 1 7 a 145,	148 0 2 a 148,	
+
+
+Iteration: 59
+System_time: 111
+Queue Size: 14
+cum_queue_size: 302
+wait_time_0: 90
+wait_time_1: 333
+CPU_busy_time: 108
+SERVER NODE: 	35 1 21 a 129,	
+SERVICE QUEUE: 	111 0 1 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	
+NEXT EVENT:      111 1 4 a 111,	
+FEL:          	116 0 11 a 116,	117 1 1 a 117,	122 0 3 a 122,	126 1 1 a 126,	35 1 21 d 129,	137 1 2 a 137,	140 1 12 a 140,	141 1 21 a 141,	145 1 7 a 145,	148 0 2 a 148,	157 1 2 a 157,	
+
+
+Iteration: 60
+System_time: 111
+Queue Size: 15
+cum_queue_size: 316
+wait_time_0: 90
+wait_time_1: 333
+CPU_busy_time: 108
+SERVER NODE: 	35 1 21 a 129,	
+SERVICE QUEUE: 	111 0 1 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	
+NEXT EVENT:      116 0 11 a 116,	
+FEL:          	117 1 1 a 117,	122 0 3 a 122,	126 1 1 a 126,	35 1 21 d 129,	137 1 2 a 137,	140 1 12 a 140,	141 1 21 a 141,	145 1 7 a 145,	148 0 2 a 148,	157 1 2 a 157,	158 0 1 a 158,	
+
+
+Iteration: 61
+System_time: 116
+Queue Size: 16
+cum_queue_size: 331
+wait_time_0: 90
+wait_time_1: 333
+CPU_busy_time: 108
+SERVER NODE: 	35 1 21 a 129,	
+SERVICE QUEUE: 	111 0 1 a 69,	116 0 11 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	
+NEXT EVENT:      117 1 1 a 117,	
+FEL:          	122 0 3 a 122,	126 1 1 a 126,	35 1 21 d 129,	137 1 2 a 137,	140 1 12 a 140,	141 1 21 a 141,	145 1 7 a 145,	148 0 2 a 148,	157 1 2 a 157,	158 0 1 a 158,	158 1 5 a 158,	
+
+
+Iteration: 62
+System_time: 117
+Queue Size: 17
+cum_queue_size: 347
+wait_time_0: 90
+wait_time_1: 333
+CPU_busy_time: 108
+SERVER NODE: 	35 1 21 a 129,	
+SERVICE QUEUE: 	111 0 1 a 69,	116 0 11 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	
+NEXT EVENT:      122 0 3 a 122,	
+FEL:          	126 1 1 a 126,	35 1 21 d 129,	137 1 2 a 137,	140 1 12 a 140,	141 1 21 a 141,	145 1 7 a 145,	148 0 2 a 148,	157 1 2 a 157,	158 0 1 a 158,	158 1 5 a 158,	159 0 7 a 159,	
+
+
+Iteration: 63
+System_time: 122
+Queue Size: 18
+cum_queue_size: 364
+wait_time_0: 90
+wait_time_1: 333
+CPU_busy_time: 108
+SERVER NODE: 	35 1 21 a 129,	
+SERVICE QUEUE: 	111 0 1 a 69,	116 0 11 a 69,	122 0 3 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	
+NEXT EVENT:      126 1 1 a 126,	
+FEL:          	35 1 21 d 129,	137 1 2 a 137,	140 1 12 a 140,	141 1 21 a 141,	145 1 7 a 145,	148 0 2 a 148,	157 1 2 a 157,	158 0 1 a 158,	158 1 5 a 158,	159 0 7 a 159,	166 1 3 a 166,	
+
+
+Iteration: 64
+System_time: 126
+Queue Size: 19
+cum_queue_size: 382
+wait_time_0: 90
+wait_time_1: 333
+CPU_busy_time: 108
+SERVER NODE: 	35 1 21 a 129,	
+SERVICE QUEUE: 	111 0 1 a 69,	116 0 11 a 69,	122 0 3 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	
+NEXT EVENT:      35 1 21 d 129,	
+FEL:          	137 1 2 a 137,	140 1 12 a 140,	141 1 21 a 141,	145 1 7 a 145,	148 0 2 a 148,	157 1 2 a 157,	158 0 1 a 158,	158 1 5 a 158,	159 0 7 a 159,	166 1 3 a 166,	170 1 5 a 170,	
+
+
+Iteration: 65
+System_time: 129
+Queue Size: 18
+cum_queue_size: 382
+wait_time_0: 108
+wait_time_1: 333
+CPU_busy_time: 129
+SERVER NODE: 	111 0 1 a 130,	
+SERVICE QUEUE: 	116 0 11 a 69,	122 0 3 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	
+NEXT EVENT:      111 0 1 d 130,	
+FEL:          	137 1 2 a 137,	140 1 12 a 140,	141 1 21 a 141,	145 1 7 a 145,	148 0 2 a 148,	157 1 2 a 157,	158 0 1 a 158,	158 1 5 a 158,	159 0 7 a 159,	166 1 3 a 166,	170 1 5 a 170,	
+
+
+Iteration: 66
+System_time: 130
+Queue Size: 17
+cum_queue_size: 382
+wait_time_0: 122
+wait_time_1: 333
+CPU_busy_time: 130
+SERVER NODE: 	116 0 11 a 141,	
+SERVICE QUEUE: 	122 0 3 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	
+NEXT EVENT:      137 1 2 a 137,	
+FEL:          	140 1 12 a 140,	141 1 21 a 141,	116 0 11 d 141,	145 1 7 a 145,	148 0 2 a 148,	157 1 2 a 157,	158 0 1 a 158,	158 1 5 a 158,	159 0 7 a 159,	166 1 3 a 166,	170 1 5 a 170,	
+
+
+Iteration: 67
+System_time: 137
+Queue Size: 18
+cum_queue_size: 399
+wait_time_0: 122
+wait_time_1: 333
+CPU_busy_time: 130
+SERVER NODE: 	116 0 11 a 141,	
+SERVICE QUEUE: 	122 0 3 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	
+NEXT EVENT:      140 1 12 a 140,	
+FEL:          	141 1 21 a 141,	116 0 11 d 141,	145 1 7 a 145,	148 0 2 a 148,	157 1 2 a 157,	158 0 1 a 158,	158 1 5 a 158,	159 0 7 a 159,	166 1 3 a 166,	170 1 5 a 170,	171 1 3 a 171,	
+
+
+Iteration: 68
+System_time: 140
+Queue Size: 19
+cum_queue_size: 417
+wait_time_0: 122
+wait_time_1: 333
+CPU_busy_time: 130
+SERVER NODE: 	116 0 11 a 141,	
+SERVICE QUEUE: 	122 0 3 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	
+NEXT EVENT:      141 1 21 a 141,	
+FEL:          	116 0 11 d 141,	145 1 7 a 145,	148 0 2 a 148,	157 1 2 a 157,	158 0 1 a 158,	158 1 5 a 158,	159 0 7 a 159,	166 1 3 a 166,	170 1 5 a 170,	171 1 3 a 171,	180 1 6 a 180,	
+
+
+Iteration: 69
+System_time: 141
+Queue Size: 20
+cum_queue_size: 436
+wait_time_0: 122
+wait_time_1: 333
+CPU_busy_time: 130
+SERVER NODE: 	116 0 11 a 141,	
+SERVICE QUEUE: 	122 0 3 a 69,	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	
+NEXT EVENT:      116 0 11 d 141,	
+FEL:          	145 1 7 a 145,	148 0 2 a 148,	157 1 2 a 157,	158 0 1 a 158,	158 1 5 a 158,	159 0 7 a 159,	166 1 3 a 166,	170 1 5 a 170,	171 1 3 a 171,	180 1 6 a 180,	186 1 1 a 186,	
+
+
+Iteration: 70
+System_time: 141
+Queue Size: 19
+cum_queue_size: 436
+wait_time_0: 141
+wait_time_1: 333
+CPU_busy_time: 141
+SERVER NODE: 	122 0 3 a 144,	
+SERVICE QUEUE: 	39 1 7 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	
+NEXT EVENT:      122 0 3 d 144,	
+FEL:          	145 1 7 a 145,	148 0 2 a 148,	157 1 2 a 157,	158 0 1 a 158,	158 1 5 a 158,	159 0 7 a 159,	166 1 3 a 166,	170 1 5 a 170,	171 1 3 a 171,	180 1 6 a 180,	186 1 1 a 186,	
+
+
+Iteration: 71
+System_time: 144
+Queue Size: 18
+cum_queue_size: 436
+wait_time_0: 141
+wait_time_1: 438
+CPU_busy_time: 144
+SERVER NODE: 	39 1 7 a 151,	
+SERVICE QUEUE: 	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	
+NEXT EVENT:      145 1 7 a 145,	
+FEL:          	148 0 2 a 148,	39 1 7 d 151,	157 1 2 a 157,	158 0 1 a 158,	158 1 5 a 158,	159 0 7 a 159,	166 1 3 a 166,	170 1 5 a 170,	171 1 3 a 171,	180 1 6 a 180,	186 1 1 a 186,	
+
+
+Iteration: 72
+System_time: 145
+Queue Size: 19
+cum_queue_size: 454
+wait_time_0: 141
+wait_time_1: 438
+CPU_busy_time: 144
+SERVER NODE: 	39 1 7 a 151,	
+SERVICE QUEUE: 	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	
+NEXT EVENT:      148 0 2 a 148,	
+FEL:          	39 1 7 d 151,	157 1 2 a 157,	158 0 1 a 158,	158 1 5 a 158,	159 0 7 a 159,	166 1 3 a 166,	170 1 5 a 170,	171 1 3 a 171,	180 1 6 a 180,	186 1 1 a 186,	187 1 11 a 187,	
+
+
+Iteration: 73
+System_time: 148
+Queue Size: 20
+cum_queue_size: 473
+wait_time_0: 141
+wait_time_1: 438
+CPU_busy_time: 144
+SERVER NODE: 	39 1 7 a 151,	
+SERVICE QUEUE: 	148 0 2 a 69,	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	
+NEXT EVENT:      39 1 7 d 151,	
+FEL:          	157 1 2 a 157,	158 0 1 a 158,	158 1 5 a 158,	159 0 7 a 159,	166 1 3 a 166,	170 1 5 a 170,	171 1 3 a 171,	180 1 6 a 180,	186 1 1 a 186,	187 1 11 a 187,	190 1 9 a 190,	
+
+
+Iteration: 74
+System_time: 151
+Queue Size: 19
+cum_queue_size: 473
+wait_time_0: 144
+wait_time_1: 438
+CPU_busy_time: 151
+SERVER NODE: 	148 0 2 a 153,	
+SERVICE QUEUE: 	52 1 5 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	
+NEXT EVENT:      148 0 2 d 153,	
+FEL:          	157 1 2 a 157,	158 0 1 a 158,	158 1 5 a 158,	159 0 7 a 159,	166 1 3 a 166,	170 1 5 a 170,	171 1 3 a 171,	180 1 6 a 180,	186 1 1 a 186,	187 1 11 a 187,	190 1 9 a 190,	
+
+
+Iteration: 75
+System_time: 153
+Queue Size: 18
+cum_queue_size: 473
+wait_time_0: 144
+wait_time_1: 539
+CPU_busy_time: 153
+SERVER NODE: 	52 1 5 a 158,	
+SERVICE QUEUE: 	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	
+NEXT EVENT:      157 1 2 a 157,	
+FEL:          	158 0 1 a 158,	158 1 5 a 158,	52 1 5 d 158,	159 0 7 a 159,	166 1 3 a 166,	170 1 5 a 170,	171 1 3 a 171,	180 1 6 a 180,	186 1 1 a 186,	187 1 11 a 187,	190 1 9 a 190,	
+
+
+Iteration: 76
+System_time: 157
+Queue Size: 19
+cum_queue_size: 491
+wait_time_0: 144
+wait_time_1: 539
+CPU_busy_time: 153
+SERVER NODE: 	52 1 5 a 158,	
+SERVICE QUEUE: 	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	
+NEXT EVENT:      158 0 1 a 158,	
+FEL:          	158 1 5 a 158,	52 1 5 d 158,	159 0 7 a 159,	166 1 3 a 166,	170 1 5 a 170,	171 1 3 a 171,	180 1 6 a 180,	186 1 1 a 186,	187 1 11 a 187,	190 1 9 a 190,	191 1 4 a 191,	
+
+
+Iteration: 77
+System_time: 158
+Queue Size: 20
+cum_queue_size: 510
+wait_time_0: 144
+wait_time_1: 539
+CPU_busy_time: 153
+SERVER NODE: 	52 1 5 a 158,	
+SERVICE QUEUE: 	158 0 1 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	
+NEXT EVENT:      158 1 5 a 158,	
+FEL:          	52 1 5 d 158,	159 0 7 a 159,	166 1 3 a 166,	170 1 5 a 170,	171 1 3 a 171,	180 1 6 a 180,	186 1 1 a 186,	187 1 11 a 187,	190 1 9 a 190,	191 1 4 a 191,	192 0 4 a 192,	
+
+
+Iteration: 78
+System_time: 158
+Queue Size: 21
+cum_queue_size: 530
+wait_time_0: 144
+wait_time_1: 539
+CPU_busy_time: 153
+SERVER NODE: 	52 1 5 a 158,	
+SERVICE QUEUE: 	158 0 1 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	
+NEXT EVENT:      52 1 5 d 158,	
+FEL:          	159 0 7 a 159,	166 1 3 a 166,	170 1 5 a 170,	171 1 3 a 171,	180 1 6 a 180,	186 1 1 a 186,	187 1 11 a 187,	190 1 9 a 190,	191 1 4 a 191,	192 0 4 a 192,	193 1 13 a 193,	
+
+
+Iteration: 79
+System_time: 158
+Queue Size: 20
+cum_queue_size: 530
+wait_time_0: 144
+wait_time_1: 539
+CPU_busy_time: 158
+SERVER NODE: 	158 0 1 a 159,	
+SERVICE QUEUE: 	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	
+NEXT EVENT:      159 0 7 a 159,	
+FEL:          	158 0 1 d 159,	166 1 3 a 166,	170 1 5 a 170,	171 1 3 a 171,	180 1 6 a 180,	186 1 1 a 186,	187 1 11 a 187,	190 1 9 a 190,	191 1 4 a 191,	192 0 4 a 192,	193 1 13 a 193,	
+
+
+Iteration: 80
+System_time: 159
+Queue Size: 21
+cum_queue_size: 550
+wait_time_0: 144
+wait_time_1: 539
+CPU_busy_time: 158
+SERVER NODE: 	158 0 1 a 159,	
+SERVICE QUEUE: 	159 0 7 a 69,	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	
+NEXT EVENT:      158 0 1 d 159,	
+FEL:          	166 1 3 a 166,	170 1 5 a 170,	171 1 3 a 171,	180 1 6 a 180,	186 1 1 a 186,	187 1 11 a 187,	190 1 9 a 190,	191 1 4 a 191,	192 0 4 a 192,	193 1 13 a 193,	200 1 26 a 200,	
+
+
+Iteration: 81
+System_time: 159
+Queue Size: 20
+cum_queue_size: 550
+wait_time_0: 144
+wait_time_1: 539
+CPU_busy_time: 159
+SERVER NODE: 	159 0 7 a 166,	
+SERVICE QUEUE: 	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	
+NEXT EVENT:      166 1 3 a 166,	
+FEL:          	159 0 7 d 166,	170 1 5 a 170,	171 1 3 a 171,	180 1 6 a 180,	186 1 1 a 186,	187 1 11 a 187,	190 1 9 a 190,	191 1 4 a 191,	192 0 4 a 192,	193 1 13 a 193,	200 1 26 a 200,	
+
+
+Iteration: 82
+System_time: 166
+Queue Size: 21
+cum_queue_size: 570
+wait_time_0: 144
+wait_time_1: 539
+CPU_busy_time: 159
+SERVER NODE: 	159 0 7 a 166,	
+SERVICE QUEUE: 	56 1 2 a 69,	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	
+NEXT EVENT:      159 0 7 d 166,	
+FEL:          	170 1 5 a 170,	171 1 3 a 171,	180 1 6 a 180,	186 1 1 a 186,	187 1 11 a 187,	190 1 9 a 190,	191 1 4 a 191,	192 0 4 a 192,	193 1 13 a 193,	200 1 26 a 200,	203 1 2 a 203,	
+
+
+Iteration: 83
+System_time: 166
+Queue Size: 20
+cum_queue_size: 570
+wait_time_0: 144
+wait_time_1: 649
+CPU_busy_time: 166
+SERVER NODE: 	56 1 2 a 168,	
+SERVICE QUEUE: 	58 1 10 a 69,	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	
+NEXT EVENT:      56 1 2 d 168,	
+FEL:          	170 1 5 a 170,	171 1 3 a 171,	180 1 6 a 180,	186 1 1 a 186,	187 1 11 a 187,	190 1 9 a 190,	191 1 4 a 191,	192 0 4 a 192,	193 1 13 a 193,	200 1 26 a 200,	203 1 2 a 203,	
+
+
+Iteration: 84
+System_time: 168
+Queue Size: 19
+cum_queue_size: 570
+wait_time_0: 144
+wait_time_1: 759
+CPU_busy_time: 168
+SERVER NODE: 	58 1 10 a 178,	
+SERVICE QUEUE: 	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	
+NEXT EVENT:      170 1 5 a 170,	
+FEL:          	171 1 3 a 171,	58 1 10 d 178,	180 1 6 a 180,	186 1 1 a 186,	187 1 11 a 187,	190 1 9 a 190,	191 1 4 a 191,	192 0 4 a 192,	193 1 13 a 193,	200 1 26 a 200,	203 1 2 a 203,	
+
+
+Iteration: 85
+System_time: 170
+Queue Size: 20
+cum_queue_size: 589
+wait_time_0: 144
+wait_time_1: 759
+CPU_busy_time: 168
+SERVER NODE: 	58 1 10 a 178,	
+SERVICE QUEUE: 	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	
+NEXT EVENT:      171 1 3 a 171,	
+FEL:          	58 1 10 d 178,	180 1 6 a 180,	186 1 1 a 186,	187 1 11 a 187,	190 1 9 a 190,	191 1 4 a 191,	192 0 4 a 192,	193 1 13 a 193,	200 1 26 a 200,	203 1 2 a 203,	208 1 2 a 208,	
+
+
+Iteration: 86
+System_time: 171
+Queue Size: 21
+cum_queue_size: 609
+wait_time_0: 144
+wait_time_1: 759
+CPU_busy_time: 168
+SERVER NODE: 	58 1 10 a 178,	
+SERVICE QUEUE: 	63 1 4 a 69,	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	
+NEXT EVENT:      58 1 10 d 178,	
+FEL:          	180 1 6 a 180,	186 1 1 a 186,	187 1 11 a 187,	190 1 9 a 190,	191 1 4 a 191,	192 0 4 a 192,	193 1 13 a 193,	200 1 26 a 200,	203 1 2 a 203,	208 1 2 a 208,	213 0 2 a 213,	
+
+
+Iteration: 87
+System_time: 178
+Queue Size: 20
+cum_queue_size: 609
+wait_time_0: 144
+wait_time_1: 874
+CPU_busy_time: 178
+SERVER NODE: 	63 1 4 a 182,	
+SERVICE QUEUE: 	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	
+NEXT EVENT:      180 1 6 a 180,	
+FEL:          	63 1 4 d 182,	186 1 1 a 186,	187 1 11 a 187,	190 1 9 a 190,	191 1 4 a 191,	192 0 4 a 192,	193 1 13 a 193,	200 1 26 a 200,	203 1 2 a 203,	208 1 2 a 208,	213 0 2 a 213,	
+
+
+Iteration: 88
+System_time: 180
+Queue Size: 21
+cum_queue_size: 629
+wait_time_0: 144
+wait_time_1: 874
+CPU_busy_time: 178
+SERVER NODE: 	63 1 4 a 182,	
+SERVICE QUEUE: 	66 1 2 a 69,	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	
+NEXT EVENT:      63 1 4 d 182,	
+FEL:          	186 1 1 a 186,	187 1 11 a 187,	190 1 9 a 190,	191 1 4 a 191,	192 0 4 a 192,	193 1 13 a 193,	200 1 26 a 200,	203 1 2 a 203,	208 1 2 a 208,	213 0 2 a 213,	214 1 5 a 214,	
+
+
+Iteration: 89
+System_time: 182
+Queue Size: 20
+cum_queue_size: 629
+wait_time_0: 144
+wait_time_1: 990
+CPU_busy_time: 182
+SERVER NODE: 	66 1 2 a 184,	
+SERVICE QUEUE: 	73 1 2 a 69,	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	
+NEXT EVENT:      66 1 2 d 184,	
+FEL:          	186 1 1 a 186,	187 1 11 a 187,	190 1 9 a 190,	191 1 4 a 191,	192 0 4 a 192,	193 1 13 a 193,	200 1 26 a 200,	203 1 2 a 203,	208 1 2 a 208,	213 0 2 a 213,	214 1 5 a 214,	
+
+
+Iteration: 90
+System_time: 184
+Queue Size: 19
+cum_queue_size: 629
+wait_time_0: 144
+wait_time_1: 1101
+CPU_busy_time: 184
+SERVER NODE: 	73 1 2 a 186,	
+SERVICE QUEUE: 	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	
+NEXT EVENT:      186 1 1 a 186,	
+FEL:          	73 1 2 d 186,	187 1 11 a 187,	190 1 9 a 190,	191 1 4 a 191,	192 0 4 a 192,	193 1 13 a 193,	200 1 26 a 200,	203 1 2 a 203,	208 1 2 a 208,	213 0 2 a 213,	214 1 5 a 214,	
+
+
+Iteration: 91
+System_time: 186
+Queue Size: 20
+cum_queue_size: 648
+wait_time_0: 144
+wait_time_1: 1101
+CPU_busy_time: 184
+SERVER NODE: 	73 1 2 a 186,	
+SERVICE QUEUE: 	77 1 1 a 69,	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	
+NEXT EVENT:      73 1 2 d 186,	
+FEL:          	187 1 11 a 187,	190 1 9 a 190,	191 1 4 a 191,	192 0 4 a 192,	193 1 13 a 193,	200 1 26 a 200,	203 1 2 a 203,	208 1 2 a 208,	213 0 2 a 213,	214 1 5 a 214,	215 1 2 a 215,	
+
+
+Iteration: 92
+System_time: 186
+Queue Size: 19
+cum_queue_size: 648
+wait_time_0: 144
+wait_time_1: 1210
+CPU_busy_time: 186
+SERVER NODE: 	77 1 1 a 187,	
+SERVICE QUEUE: 	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	
+NEXT EVENT:      187 1 11 a 187,	
+FEL:          	77 1 1 d 187,	190 1 9 a 190,	191 1 4 a 191,	192 0 4 a 192,	193 1 13 a 193,	200 1 26 a 200,	203 1 2 a 203,	208 1 2 a 208,	213 0 2 a 213,	214 1 5 a 214,	215 1 2 a 215,	
+
+
+Iteration: 93
+System_time: 187
+Queue Size: 20
+cum_queue_size: 667
+wait_time_0: 144
+wait_time_1: 1210
+CPU_busy_time: 186
+SERVER NODE: 	77 1 1 a 187,	
+SERVICE QUEUE: 	80 1 1 a 69,	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	
+NEXT EVENT:      77 1 1 d 187,	
+FEL:          	190 1 9 a 190,	191 1 4 a 191,	192 0 4 a 192,	193 1 13 a 193,	200 1 26 a 200,	203 1 2 a 203,	208 1 2 a 208,	213 0 2 a 213,	214 1 5 a 214,	215 1 2 a 215,	218 1 1 a 218,	
+
+
+Iteration: 94
+System_time: 187
+Queue Size: 19
+cum_queue_size: 667
+wait_time_0: 144
+wait_time_1: 1317
+CPU_busy_time: 187
+SERVER NODE: 	80 1 1 a 188,	
+SERVICE QUEUE: 	82 1 5 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	
+NEXT EVENT:      80 1 1 d 188,	
+FEL:          	190 1 9 a 190,	191 1 4 a 191,	192 0 4 a 192,	193 1 13 a 193,	200 1 26 a 200,	203 1 2 a 203,	208 1 2 a 208,	213 0 2 a 213,	214 1 5 a 214,	215 1 2 a 215,	218 1 1 a 218,	
+
+
+Iteration: 95
+System_time: 188
+Queue Size: 18
+cum_queue_size: 667
+wait_time_0: 144
+wait_time_1: 1423
+CPU_busy_time: 188
+SERVER NODE: 	82 1 5 a 193,	
+SERVICE QUEUE: 	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	
+NEXT EVENT:      190 1 9 a 190,	
+FEL:          	191 1 4 a 191,	192 0 4 a 192,	193 1 13 a 193,	82 1 5 d 193,	200 1 26 a 200,	203 1 2 a 203,	208 1 2 a 208,	213 0 2 a 213,	214 1 5 a 214,	215 1 2 a 215,	218 1 1 a 218,	
+
+
+Iteration: 96
+System_time: 190
+Queue Size: 19
+cum_queue_size: 685
+wait_time_0: 144
+wait_time_1: 1423
+CPU_busy_time: 188
+SERVER NODE: 	82 1 5 a 193,	
+SERVICE QUEUE: 	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	
+NEXT EVENT:      191 1 4 a 191,	
+FEL:          	192 0 4 a 192,	193 1 13 a 193,	82 1 5 d 193,	200 1 26 a 200,	203 1 2 a 203,	208 1 2 a 208,	213 0 2 a 213,	214 1 5 a 214,	215 1 2 a 215,	218 1 1 a 218,	219 1 6 a 219,	
+
+
+Iteration: 97
+System_time: 191
+Queue Size: 20
+cum_queue_size: 704
+wait_time_0: 144
+wait_time_1: 1423
+CPU_busy_time: 188
+SERVER NODE: 	82 1 5 a 193,	
+SERVICE QUEUE: 	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	
+NEXT EVENT:      192 0 4 a 192,	
+FEL:          	193 1 13 a 193,	82 1 5 d 193,	200 1 26 a 200,	203 1 2 a 203,	208 1 2 a 208,	213 0 2 a 213,	214 1 5 a 214,	215 1 2 a 215,	218 1 1 a 218,	219 1 6 a 219,	220 1 7 a 220,	
+
+
+Iteration: 98
+System_time: 192
+Queue Size: 21
+cum_queue_size: 724
+wait_time_0: 144
+wait_time_1: 1423
+CPU_busy_time: 188
+SERVER NODE: 	82 1 5 a 193,	
+SERVICE QUEUE: 	192 0 4 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	
+NEXT EVENT:      193 1 13 a 193,	
+FEL:          	82 1 5 d 193,	200 1 26 a 200,	203 1 2 a 203,	208 1 2 a 208,	213 0 2 a 213,	214 1 5 a 214,	215 1 2 a 215,	218 1 1 a 218,	219 1 6 a 219,	220 1 7 a 220,	224 1 5 a 224,	
+
+
+Iteration: 99
+System_time: 193
+Queue Size: 22
+cum_queue_size: 745
+wait_time_0: 144
+wait_time_1: 1423
+CPU_busy_time: 188
+SERVER NODE: 	82 1 5 a 193,	
+SERVICE QUEUE: 	192 0 4 a 69,	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	
+NEXT EVENT:      82 1 5 d 193,	
+FEL:          	200 1 26 a 200,	203 1 2 a 203,	208 1 2 a 208,	213 0 2 a 213,	214 1 5 a 214,	215 1 2 a 215,	218 1 1 a 218,	219 1 6 a 219,	220 1 7 a 220,	224 1 5 a 224,	229 1 7 a 229,	
+
+
+Iteration: 100
+System_time: 193
+Queue Size: 21
+cum_queue_size: 745
+wait_time_0: 145
+wait_time_1: 1423
+CPU_busy_time: 193
+SERVER NODE: 	192 0 4 a 197,	
+SERVICE QUEUE: 	90 1 2 a 69,	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	
+NEXT EVENT:      192 0 4 d 197,	
+FEL:          	200 1 26 a 200,	203 1 2 a 203,	208 1 2 a 208,	213 0 2 a 213,	214 1 5 a 214,	215 1 2 a 215,	218 1 1 a 218,	219 1 6 a 219,	220 1 7 a 220,	224 1 5 a 224,	229 1 7 a 229,	
+
+
+Iteration: 101
+System_time: 197
+Queue Size: 20
+cum_queue_size: 745
+wait_time_0: 145
+wait_time_1: 1530
+CPU_busy_time: 197
+SERVER NODE: 	90 1 2 a 199,	
+SERVICE QUEUE: 	91 1 11 a 69,	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	
+NEXT EVENT:      90 1 2 d 199,	
+FEL:          	200 1 26 a 200,	203 1 2 a 203,	208 1 2 a 208,	213 0 2 a 213,	214 1 5 a 214,	215 1 2 a 215,	218 1 1 a 218,	219 1 6 a 219,	220 1 7 a 220,	224 1 5 a 224,	229 1 7 a 229,	
+
+
+Iteration: 102
+System_time: 199
+Queue Size: 19
+cum_queue_size: 745
+wait_time_0: 145
+wait_time_1: 1638
+CPU_busy_time: 199
+SERVER NODE: 	91 1 11 a 210,	
+SERVICE QUEUE: 	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	
+NEXT EVENT:      200 1 26 a 200,	
+FEL:          	203 1 2 a 203,	208 1 2 a 208,	91 1 11 d 210,	213 0 2 a 213,	214 1 5 a 214,	215 1 2 a 215,	218 1 1 a 218,	219 1 6 a 219,	220 1 7 a 220,	224 1 5 a 224,	229 1 7 a 229,	
+
+
+Iteration: 103
+System_time: 200
+Queue Size: 20
+cum_queue_size: 764
+wait_time_0: 145
+wait_time_1: 1638
+CPU_busy_time: 199
+SERVER NODE: 	91 1 11 a 210,	
+SERVICE QUEUE: 	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	
+NEXT EVENT:      203 1 2 a 203,	
+FEL:          	208 1 2 a 208,	91 1 11 d 210,	213 0 2 a 213,	214 1 5 a 214,	215 1 2 a 215,	218 1 1 a 218,	219 1 6 a 219,	220 1 7 a 220,	224 1 5 a 224,	229 1 7 a 229,	234 0 1 a 234,	
+
+
+Iteration: 104
+System_time: 203
+Queue Size: 21
+cum_queue_size: 784
+wait_time_0: 145
+wait_time_1: 1638
+CPU_busy_time: 199
+SERVER NODE: 	91 1 11 a 210,	
+SERVICE QUEUE: 	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	
+NEXT EVENT:      208 1 2 a 208,	
+FEL:          	91 1 11 d 210,	213 0 2 a 213,	214 1 5 a 214,	215 1 2 a 215,	218 1 1 a 218,	219 1 6 a 219,	220 1 7 a 220,	224 1 5 a 224,	229 1 7 a 229,	234 0 1 a 234,	265 0 3 a 265,	
+
+
+Iteration: 105
+System_time: 208
+Queue Size: 22
+cum_queue_size: 805
+wait_time_0: 145
+wait_time_1: 1638
+CPU_busy_time: 199
+SERVER NODE: 	91 1 11 a 210,	
+SERVICE QUEUE: 	96 1 5 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	
+NEXT EVENT:      91 1 11 d 210,	
+FEL:          	213 0 2 a 213,	214 1 5 a 214,	215 1 2 a 215,	218 1 1 a 218,	219 1 6 a 219,	220 1 7 a 220,	224 1 5 a 224,	229 1 7 a 229,	234 0 1 a 234,	265 0 3 a 265,	287 0 19 a 287,	
+
+
+Iteration: 106
+System_time: 210
+Queue Size: 21
+cum_queue_size: 805
+wait_time_0: 145
+wait_time_1: 1752
+CPU_busy_time: 210
+SERVER NODE: 	96 1 5 a 215,	
+SERVICE QUEUE: 	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	
+NEXT EVENT:      213 0 2 a 213,	
+FEL:          	214 1 5 a 214,	215 1 2 a 215,	96 1 5 d 215,	218 1 1 a 218,	219 1 6 a 219,	220 1 7 a 220,	224 1 5 a 224,	229 1 7 a 229,	234 0 1 a 234,	265 0 3 a 265,	287 0 19 a 287,	
+
+
+Iteration: 107
+System_time: 213
+Queue Size: 22
+cum_queue_size: 826
+wait_time_0: 145
+wait_time_1: 1752
+CPU_busy_time: 210
+SERVER NODE: 	96 1 5 a 215,	
+SERVICE QUEUE: 	213 0 2 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	
+NEXT EVENT:      214 1 5 a 214,	
+FEL:          	215 1 2 a 215,	96 1 5 d 215,	218 1 1 a 218,	219 1 6 a 219,	220 1 7 a 220,	224 1 5 a 224,	229 1 7 a 229,	234 0 1 a 234,	265 0 3 a 265,	287 0 19 a 287,	322 0 2 a 322,	
+
+
+Iteration: 108
+System_time: 214
+Queue Size: 23
+cum_queue_size: 848
+wait_time_0: 145
+wait_time_1: 1752
+CPU_busy_time: 210
+SERVER NODE: 	96 1 5 a 215,	
+SERVICE QUEUE: 	213 0 2 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	
+NEXT EVENT:      215 1 2 a 215,	
+FEL:          	96 1 5 d 215,	218 1 1 a 218,	219 1 6 a 219,	220 1 7 a 220,	224 1 5 a 224,	229 1 7 a 229,	234 0 1 a 234,	265 0 3 a 265,	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	
+
+
+Iteration: 109
+System_time: 215
+Queue Size: 24
+cum_queue_size: 871
+wait_time_0: 145
+wait_time_1: 1752
+CPU_busy_time: 210
+SERVER NODE: 	96 1 5 a 215,	
+SERVICE QUEUE: 	213 0 2 a 69,	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	
+NEXT EVENT:      96 1 5 d 215,	
+FEL:          	218 1 1 a 218,	219 1 6 a 219,	220 1 7 a 220,	224 1 5 a 224,	229 1 7 a 229,	234 0 1 a 234,	265 0 3 a 265,	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	
+
+
+Iteration: 110
+System_time: 215
+Queue Size: 23
+cum_queue_size: 871
+wait_time_0: 147
+wait_time_1: 1752
+CPU_busy_time: 215
+SERVER NODE: 	213 0 2 a 217,	
+SERVICE QUEUE: 	111 1 4 a 69,	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	
+NEXT EVENT:      213 0 2 d 217,	
+FEL:          	218 1 1 a 218,	219 1 6 a 219,	220 1 7 a 220,	224 1 5 a 224,	229 1 7 a 229,	234 0 1 a 234,	265 0 3 a 265,	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	
+
+
+Iteration: 111
+System_time: 217
+Queue Size: 22
+cum_queue_size: 871
+wait_time_0: 147
+wait_time_1: 1858
+CPU_busy_time: 217
+SERVER NODE: 	111 1 4 a 221,	
+SERVICE QUEUE: 	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	171 1 3 a 69,	
+NEXT EVENT:      218 1 1 a 218,	
+FEL:          	219 1 6 a 219,	220 1 7 a 220,	111 1 4 d 221,	224 1 5 a 224,	229 1 7 a 229,	234 0 1 a 234,	265 0 3 a 265,	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	
+
+
+Iteration: 112
+System_time: 218
+Queue Size: 23
+cum_queue_size: 893
+wait_time_0: 147
+wait_time_1: 1858
+CPU_busy_time: 217
+SERVER NODE: 	111 1 4 a 221,	
+SERVICE QUEUE: 	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	171 1 3 a 69,	
+NEXT EVENT:      219 1 6 a 219,	
+FEL:          	220 1 7 a 220,	111 1 4 d 221,	224 1 5 a 224,	229 1 7 a 229,	234 0 1 a 234,	265 0 3 a 265,	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	
+
+
+Iteration: 113
+System_time: 219
+Queue Size: 24
+cum_queue_size: 916
+wait_time_0: 147
+wait_time_1: 1858
+CPU_busy_time: 217
+SERVER NODE: 	111 1 4 a 221,	
+SERVICE QUEUE: 	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	171 1 3 a 69,	
+NEXT EVENT:      220 1 7 a 220,	
+FEL:          	111 1 4 d 221,	224 1 5 a 224,	229 1 7 a 229,	234 0 1 a 234,	265 0 3 a 265,	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	
+
+
+Iteration: 114
+System_time: 220
+Queue Size: 25
+cum_queue_size: 940
+wait_time_0: 147
+wait_time_1: 1858
+CPU_busy_time: 217
+SERVER NODE: 	111 1 4 a 221,	
+SERVICE QUEUE: 	117 1 1 a 69,	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	171 1 3 a 69,	
+NEXT EVENT:      111 1 4 d 221,	
+FEL:          	224 1 5 a 224,	229 1 7 a 229,	234 0 1 a 234,	265 0 3 a 265,	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	
+
+
+Iteration: 115
+System_time: 221
+Queue Size: 24
+cum_queue_size: 940
+wait_time_0: 147
+wait_time_1: 1962
+CPU_busy_time: 221
+SERVER NODE: 	117 1 1 a 222,	
+SERVICE QUEUE: 	126 1 1 a 69,	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	171 1 3 a 69,	180 1 6 a 69,	
+NEXT EVENT:      117 1 1 d 222,	
+FEL:          	224 1 5 a 224,	229 1 7 a 229,	234 0 1 a 234,	265 0 3 a 265,	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	
+
+
+Iteration: 116
+System_time: 222
+Queue Size: 23
+cum_queue_size: 940
+wait_time_0: 147
+wait_time_1: 2058
+CPU_busy_time: 222
+SERVER NODE: 	126 1 1 a 223,	
+SERVICE QUEUE: 	137 1 2 a 69,	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	171 1 3 a 69,	180 1 6 a 69,	186 1 1 a 69,	
+NEXT EVENT:      126 1 1 d 223,	
+FEL:          	224 1 5 a 224,	229 1 7 a 229,	234 0 1 a 234,	265 0 3 a 265,	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	
+
+
+Iteration: 117
+System_time: 223
+Queue Size: 22
+cum_queue_size: 940
+wait_time_0: 147
+wait_time_1: 2144
+CPU_busy_time: 223
+SERVER NODE: 	137 1 2 a 225,	
+SERVICE QUEUE: 	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	171 1 3 a 69,	180 1 6 a 69,	186 1 1 a 69,	187 1 11 a 69,	
+NEXT EVENT:      224 1 5 a 224,	
+FEL:          	137 1 2 d 225,	229 1 7 a 229,	234 0 1 a 234,	265 0 3 a 265,	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	
+
+
+Iteration: 118
+System_time: 224
+Queue Size: 23
+cum_queue_size: 962
+wait_time_0: 147
+wait_time_1: 2144
+CPU_busy_time: 223
+SERVER NODE: 	137 1 2 a 225,	
+SERVICE QUEUE: 	140 1 12 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	171 1 3 a 69,	180 1 6 a 69,	186 1 1 a 69,	187 1 11 a 69,	
+NEXT EVENT:      137 1 2 d 225,	
+FEL:          	229 1 7 a 229,	234 0 1 a 234,	265 0 3 a 265,	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	
+
+
+Iteration: 119
+System_time: 225
+Queue Size: 22
+cum_queue_size: 962
+wait_time_0: 147
+wait_time_1: 2229
+CPU_busy_time: 225
+SERVER NODE: 	140 1 12 a 237,	
+SERVICE QUEUE: 	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	171 1 3 a 69,	180 1 6 a 69,	186 1 1 a 69,	187 1 11 a 69,	190 1 9 a 69,	
+NEXT EVENT:      229 1 7 a 229,	
+FEL:          	234 0 1 a 234,	140 1 12 d 237,	265 0 3 a 265,	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	
+
+
+Iteration: 120
+System_time: 229
+Queue Size: 23
+cum_queue_size: 984
+wait_time_0: 147
+wait_time_1: 2229
+CPU_busy_time: 225
+SERVER NODE: 	140 1 12 a 237,	
+SERVICE QUEUE: 	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	171 1 3 a 69,	180 1 6 a 69,	186 1 1 a 69,	187 1 11 a 69,	190 1 9 a 69,	
+NEXT EVENT:      234 0 1 a 234,	
+FEL:          	140 1 12 d 237,	265 0 3 a 265,	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	
+
+
+Iteration: 121
+System_time: 234
+Queue Size: 24
+cum_queue_size: 1007
+wait_time_0: 147
+wait_time_1: 2229
+CPU_busy_time: 225
+SERVER NODE: 	140 1 12 a 237,	
+SERVICE QUEUE: 	234 0 1 a 69,	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	171 1 3 a 69,	180 1 6 a 69,	186 1 1 a 69,	187 1 11 a 69,	
+NEXT EVENT:      140 1 12 d 237,	
+FEL:          	265 0 3 a 265,	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	
+
+
+Iteration: 122
+System_time: 237
+Queue Size: 23
+cum_queue_size: 1007
+wait_time_0: 150
+wait_time_1: 2229
+CPU_busy_time: 237
+SERVER NODE: 	234 0 1 a 238,	
+SERVICE QUEUE: 	141 1 21 a 69,	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	171 1 3 a 69,	180 1 6 a 69,	186 1 1 a 69,	187 1 11 a 69,	190 1 9 a 69,	
+NEXT EVENT:      234 0 1 d 238,	
+FEL:          	265 0 3 a 265,	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	
+
+
+Iteration: 123
+System_time: 238
+Queue Size: 22
+cum_queue_size: 1007
+wait_time_0: 150
+wait_time_1: 2326
+CPU_busy_time: 238
+SERVER NODE: 	141 1 21 a 259,	
+SERVICE QUEUE: 	145 1 7 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	171 1 3 a 69,	180 1 6 a 69,	186 1 1 a 69,	187 1 11 a 69,	190 1 9 a 69,	191 1 4 a 69,	
+NEXT EVENT:      141 1 21 d 259,	
+FEL:          	265 0 3 a 265,	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	
+
+
+Iteration: 124
+System_time: 259
+Queue Size: 21
+cum_queue_size: 1007
+wait_time_0: 150
+wait_time_1: 2440
+CPU_busy_time: 259
+SERVER NODE: 	145 1 7 a 266,	
+SERVICE QUEUE: 	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	171 1 3 a 69,	180 1 6 a 69,	186 1 1 a 69,	187 1 11 a 69,	190 1 9 a 69,	191 1 4 a 69,	193 1 13 a 69,	
+NEXT EVENT:      265 0 3 a 265,	
+FEL:          	145 1 7 d 266,	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	
+
+
+Iteration: 125
+System_time: 265
+Queue Size: 22
+cum_queue_size: 1028
+wait_time_0: 150
+wait_time_1: 2440
+CPU_busy_time: 259
+SERVER NODE: 	145 1 7 a 266,	
+SERVICE QUEUE: 	265 0 3 a 69,	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	171 1 3 a 69,	180 1 6 a 69,	186 1 1 a 69,	187 1 11 a 69,	190 1 9 a 69,	191 1 4 a 69,	
+NEXT EVENT:      145 1 7 d 266,	
+FEL:          	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	
+
+
+Iteration: 126
+System_time: 266
+Queue Size: 21
+cum_queue_size: 1028
+wait_time_0: 151
+wait_time_1: 2440
+CPU_busy_time: 266
+SERVER NODE: 	265 0 3 a 269,	
+SERVICE QUEUE: 	157 1 2 a 69,	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	171 1 3 a 69,	180 1 6 a 69,	186 1 1 a 69,	187 1 11 a 69,	190 1 9 a 69,	191 1 4 a 69,	193 1 13 a 69,	
+NEXT EVENT:      265 0 3 d 269,	
+FEL:          	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	
+
+
+Iteration: 127
+System_time: 269
+Queue Size: 20
+cum_queue_size: 1028
+wait_time_0: 151
+wait_time_1: 2552
+CPU_busy_time: 269
+SERVER NODE: 	157 1 2 a 271,	
+SERVICE QUEUE: 	158 1 5 a 69,	166 1 3 a 69,	170 1 5 a 69,	171 1 3 a 69,	180 1 6 a 69,	186 1 1 a 69,	187 1 11 a 69,	190 1 9 a 69,	191 1 4 a 69,	193 1 13 a 69,	200 1 26 a 69,	
+NEXT EVENT:      157 1 2 d 271,	
+FEL:          	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	
+
+
+Iteration: 128
+System_time: 271
+Queue Size: 19
+cum_queue_size: 1028
+wait_time_0: 151
+wait_time_1: 2665
+CPU_busy_time: 271
+SERVER NODE: 	158 1 5 a 276,	
+SERVICE QUEUE: 	166 1 3 a 69,	170 1 5 a 69,	171 1 3 a 69,	180 1 6 a 69,	186 1 1 a 69,	187 1 11 a 69,	190 1 9 a 69,	191 1 4 a 69,	193 1 13 a 69,	200 1 26 a 69,	203 1 2 a 69,	
+NEXT EVENT:      158 1 5 d 276,	
+FEL:          	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	
+
+
+Iteration: 129
+System_time: 276
+Queue Size: 18
+cum_queue_size: 1028
+wait_time_0: 151
+wait_time_1: 2775
+CPU_busy_time: 276
+SERVER NODE: 	166 1 3 a 279,	
+SERVICE QUEUE: 	170 1 5 a 69,	171 1 3 a 69,	180 1 6 a 69,	186 1 1 a 69,	187 1 11 a 69,	190 1 9 a 69,	191 1 4 a 69,	193 1 13 a 69,	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	
+NEXT EVENT:      166 1 3 d 279,	
+FEL:          	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	
+
+
+Iteration: 130
+System_time: 279
+Queue Size: 17
+cum_queue_size: 1028
+wait_time_0: 151
+wait_time_1: 2884
+CPU_busy_time: 279
+SERVER NODE: 	170 1 5 a 284,	
+SERVICE QUEUE: 	171 1 3 a 69,	180 1 6 a 69,	186 1 1 a 69,	187 1 11 a 69,	190 1 9 a 69,	191 1 4 a 69,	193 1 13 a 69,	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	
+NEXT EVENT:      170 1 5 d 284,	
+FEL:          	287 0 19 a 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	
+
+
+Iteration: 131
+System_time: 284
+Queue Size: 16
+cum_queue_size: 1028
+wait_time_0: 151
+wait_time_1: 2997
+CPU_busy_time: 284
+SERVER NODE: 	171 1 3 a 287,	
+SERVICE QUEUE: 	180 1 6 a 69,	186 1 1 a 69,	187 1 11 a 69,	190 1 9 a 69,	191 1 4 a 69,	193 1 13 a 69,	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	
+NEXT EVENT:      287 0 19 a 287,	
+FEL:          	171 1 3 d 287,	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	
+
+
+Iteration: 132
+System_time: 287
+Queue Size: 17
+cum_queue_size: 1044
+wait_time_0: 151
+wait_time_1: 2997
+CPU_busy_time: 284
+SERVER NODE: 	171 1 3 a 287,	
+SERVICE QUEUE: 	287 0 19 a 69,	180 1 6 a 69,	186 1 1 a 69,	187 1 11 a 69,	190 1 9 a 69,	191 1 4 a 69,	193 1 13 a 69,	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	
+NEXT EVENT:      171 1 3 d 287,	
+FEL:          	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	
+
+
+Iteration: 133
+System_time: 287
+Queue Size: 16
+cum_queue_size: 1044
+wait_time_0: 151
+wait_time_1: 2997
+CPU_busy_time: 287
+SERVER NODE: 	287 0 19 a 306,	
+SERVICE QUEUE: 	180 1 6 a 69,	186 1 1 a 69,	187 1 11 a 69,	190 1 9 a 69,	191 1 4 a 69,	193 1 13 a 69,	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	
+NEXT EVENT:      287 0 19 d 306,	
+FEL:          	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	
+
+
+Iteration: 134
+System_time: 306
+Queue Size: 15
+cum_queue_size: 1044
+wait_time_0: 151
+wait_time_1: 3123
+CPU_busy_time: 306
+SERVER NODE: 	180 1 6 a 312,	
+SERVICE QUEUE: 	186 1 1 a 69,	187 1 11 a 69,	190 1 9 a 69,	191 1 4 a 69,	193 1 13 a 69,	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	
+NEXT EVENT:      180 1 6 d 312,	
+FEL:          	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	
+
+
+Iteration: 135
+System_time: 312
+Queue Size: 14
+cum_queue_size: 1044
+wait_time_0: 151
+wait_time_1: 3249
+CPU_busy_time: 312
+SERVER NODE: 	186 1 1 a 313,	
+SERVICE QUEUE: 	187 1 11 a 69,	190 1 9 a 69,	191 1 4 a 69,	193 1 13 a 69,	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	
+NEXT EVENT:      186 1 1 d 313,	
+FEL:          	322 0 2 a 322,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	
+
+
+Iteration: 136
+System_time: 313
+Queue Size: 13
+cum_queue_size: 1044
+wait_time_0: 151
+wait_time_1: 3375
+CPU_busy_time: 313
+SERVER NODE: 	187 1 11 a 324,	
+SERVICE QUEUE: 	190 1 9 a 69,	191 1 4 a 69,	193 1 13 a 69,	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	
+NEXT EVENT:      322 0 2 a 322,	
+FEL:          	187 1 11 d 324,	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	
+
+
+Iteration: 137
+System_time: 322
+Queue Size: 14
+cum_queue_size: 1057
+wait_time_0: 151
+wait_time_1: 3375
+CPU_busy_time: 313
+SERVER NODE: 	187 1 11 a 324,	
+SERVICE QUEUE: 	322 0 2 a 69,	190 1 9 a 69,	191 1 4 a 69,	193 1 13 a 69,	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	
+NEXT EVENT:      187 1 11 d 324,	
+FEL:          	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	
+
+
+Iteration: 138
+System_time: 324
+Queue Size: 13
+cum_queue_size: 1057
+wait_time_0: 153
+wait_time_1: 3375
+CPU_busy_time: 324
+SERVER NODE: 	322 0 2 a 326,	
+SERVICE QUEUE: 	190 1 9 a 69,	191 1 4 a 69,	193 1 13 a 69,	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	
+NEXT EVENT:      322 0 2 d 326,	
+FEL:          	332 0 1 a 332,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	
+
+
+Iteration: 139
+System_time: 326
+Queue Size: 12
+cum_queue_size: 1057
+wait_time_0: 153
+wait_time_1: 3511
+CPU_busy_time: 326
+SERVER NODE: 	190 1 9 a 335,	
+SERVICE QUEUE: 	191 1 4 a 69,	193 1 13 a 69,	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	
+NEXT EVENT:      332 0 1 a 332,	
+FEL:          	190 1 9 d 335,	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	
+
+
+Iteration: 140
+System_time: 332
+Queue Size: 13
+cum_queue_size: 1069
+wait_time_0: 153
+wait_time_1: 3511
+CPU_busy_time: 326
+SERVER NODE: 	190 1 9 a 335,	
+SERVICE QUEUE: 	332 0 1 a 69,	191 1 4 a 69,	193 1 13 a 69,	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	
+NEXT EVENT:      190 1 9 d 335,	
+FEL:          	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	416 0 4 a 416,	
+
+
+Iteration: 141
+System_time: 335
+Queue Size: 12
+cum_queue_size: 1069
+wait_time_0: 156
+wait_time_1: 3511
+CPU_busy_time: 335
+SERVER NODE: 	332 0 1 a 336,	
+SERVICE QUEUE: 	191 1 4 a 69,	193 1 13 a 69,	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	
+NEXT EVENT:      332 0 1 d 336,	
+FEL:          	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	416 0 4 a 416,	
+
+
+Iteration: 142
+System_time: 336
+Queue Size: 11
+cum_queue_size: 1069
+wait_time_0: 156
+wait_time_1: 3656
+CPU_busy_time: 336
+SERVER NODE: 	191 1 4 a 340,	
+SERVICE QUEUE: 	193 1 13 a 69,	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      191 1 4 d 340,	
+FEL:          	344 0 2 a 344,	345 0 1 a 345,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	416 0 4 a 416,	
+
+
+Iteration: 143
+System_time: 340
+Queue Size: 10
+cum_queue_size: 1069
+wait_time_0: 156
+wait_time_1: 3803
+CPU_busy_time: 340
+SERVER NODE: 	193 1 13 a 353,	
+SERVICE QUEUE: 	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      344 0 2 a 344,	
+FEL:          	345 0 1 a 345,	193 1 13 d 353,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	416 0 4 a 416,	
+
+
+Iteration: 144
+System_time: 344
+Queue Size: 11
+cum_queue_size: 1079
+wait_time_0: 156
+wait_time_1: 3803
+CPU_busy_time: 340
+SERVER NODE: 	193 1 13 a 353,	
+SERVICE QUEUE: 	344 0 2 a 69,	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      345 0 1 a 345,	
+FEL:          	193 1 13 d 353,	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	416 0 4 a 416,	423 0 5 a 423,	
+
+
+Iteration: 145
+System_time: 345
+Queue Size: 12
+cum_queue_size: 1090
+wait_time_0: 156
+wait_time_1: 3803
+CPU_busy_time: 340
+SERVER NODE: 	193 1 13 a 353,	
+SERVICE QUEUE: 	344 0 2 a 69,	345 0 1 a 69,	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	
+NEXT EVENT:      193 1 13 d 353,	
+FEL:          	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	416 0 4 a 416,	423 0 5 a 423,	448 0 25 a 448,	
+
+
+Iteration: 146
+System_time: 353
+Queue Size: 11
+cum_queue_size: 1090
+wait_time_0: 165
+wait_time_1: 3803
+CPU_busy_time: 353
+SERVER NODE: 	344 0 2 a 355,	
+SERVICE QUEUE: 	345 0 1 a 69,	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      344 0 2 d 355,	
+FEL:          	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	416 0 4 a 416,	423 0 5 a 423,	448 0 25 a 448,	
+
+
+Iteration: 147
+System_time: 355
+Queue Size: 10
+cum_queue_size: 1090
+wait_time_0: 175
+wait_time_1: 3803
+CPU_busy_time: 355
+SERVER NODE: 	345 0 1 a 356,	
+SERVICE QUEUE: 	200 1 26 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      345 0 1 d 356,	
+FEL:          	362 0 6 a 362,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	416 0 4 a 416,	423 0 5 a 423,	448 0 25 a 448,	
+
+
+Iteration: 148
+System_time: 356
+Queue Size: 9
+cum_queue_size: 1090
+wait_time_0: 175
+wait_time_1: 3959
+CPU_busy_time: 356
+SERVER NODE: 	200 1 26 a 382,	
+SERVICE QUEUE: 	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      362 0 6 a 362,	
+FEL:          	200 1 26 d 382,	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	416 0 4 a 416,	423 0 5 a 423,	448 0 25 a 448,	
+
+
+Iteration: 149
+System_time: 362
+Queue Size: 10
+cum_queue_size: 1099
+wait_time_0: 175
+wait_time_1: 3959
+CPU_busy_time: 356
+SERVER NODE: 	200 1 26 a 382,	
+SERVICE QUEUE: 	362 0 6 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      200 1 26 d 382,	
+FEL:          	385 0 9 a 385,	386 0 3 a 386,	387 0 13 a 387,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	416 0 4 a 416,	423 0 5 a 423,	448 0 25 a 448,	455 0 1 a 455,	
+
+
+Iteration: 150
+System_time: 382
+Queue Size: 9
+cum_queue_size: 1099
+wait_time_0: 195
+wait_time_1: 3959
+CPU_busy_time: 382
+SERVER NODE: 	362 0 6 a 388,	
+SERVICE QUEUE: 	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      385 0 9 a 385,	
+FEL:          	386 0 3 a 386,	387 0 13 a 387,	362 0 6 d 388,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	416 0 4 a 416,	423 0 5 a 423,	448 0 25 a 448,	455 0 1 a 455,	
+
+
+Iteration: 151
+System_time: 385
+Queue Size: 10
+cum_queue_size: 1108
+wait_time_0: 195
+wait_time_1: 3959
+CPU_busy_time: 382
+SERVER NODE: 	362 0 6 a 388,	
+SERVICE QUEUE: 	385 0 9 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      386 0 3 a 386,	
+FEL:          	387 0 13 a 387,	362 0 6 d 388,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	416 0 4 a 416,	423 0 5 a 423,	448 0 25 a 448,	455 0 1 a 455,	462 0 4 a 462,	
+
+
+Iteration: 152
+System_time: 386
+Queue Size: 11
+cum_queue_size: 1118
+wait_time_0: 195
+wait_time_1: 3959
+CPU_busy_time: 382
+SERVER NODE: 	362 0 6 a 388,	
+SERVICE QUEUE: 	385 0 9 a 69,	386 0 3 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      387 0 13 a 387,	
+FEL:          	362 0 6 d 388,	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	416 0 4 a 416,	423 0 5 a 423,	448 0 25 a 448,	455 0 1 a 455,	462 0 4 a 462,	477 0 6 a 477,	
+
+
+Iteration: 153
+System_time: 387
+Queue Size: 12
+cum_queue_size: 1129
+wait_time_0: 195
+wait_time_1: 3959
+CPU_busy_time: 382
+SERVER NODE: 	362 0 6 a 388,	
+SERVICE QUEUE: 	385 0 9 a 69,	386 0 3 a 69,	387 0 13 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	
+NEXT EVENT:      362 0 6 d 388,	
+FEL:          	393 0 1 a 393,	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	416 0 4 a 416,	423 0 5 a 423,	448 0 25 a 448,	455 0 1 a 455,	462 0 4 a 462,	477 0 6 a 477,	479 0 11 a 479,	
+
+
+Iteration: 154
+System_time: 388
+Queue Size: 11
+cum_queue_size: 1129
+wait_time_0: 198
+wait_time_1: 3959
+CPU_busy_time: 388
+SERVER NODE: 	385 0 9 a 397,	
+SERVICE QUEUE: 	386 0 3 a 69,	387 0 13 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      393 0 1 a 393,	
+FEL:          	385 0 9 d 397,	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	416 0 4 a 416,	423 0 5 a 423,	448 0 25 a 448,	455 0 1 a 455,	462 0 4 a 462,	477 0 6 a 477,	479 0 11 a 479,	
+
+
+Iteration: 155
+System_time: 393
+Queue Size: 12
+cum_queue_size: 1140
+wait_time_0: 198
+wait_time_1: 3959
+CPU_busy_time: 388
+SERVER NODE: 	385 0 9 a 397,	
+SERVICE QUEUE: 	386 0 3 a 69,	387 0 13 a 69,	393 0 1 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	
+NEXT EVENT:      385 0 9 d 397,	
+FEL:          	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	416 0 4 a 416,	423 0 5 a 423,	448 0 25 a 448,	455 0 1 a 455,	462 0 4 a 462,	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	
+
+
+Iteration: 156
+System_time: 397
+Queue Size: 11
+cum_queue_size: 1140
+wait_time_0: 209
+wait_time_1: 3959
+CPU_busy_time: 397
+SERVER NODE: 	386 0 3 a 400,	
+SERVICE QUEUE: 	387 0 13 a 69,	393 0 1 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      386 0 3 d 400,	
+FEL:          	405 0 14 a 405,	407 0 2 a 407,	414 0 11 a 414,	416 0 4 a 416,	423 0 5 a 423,	448 0 25 a 448,	455 0 1 a 455,	462 0 4 a 462,	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	
+
+
+Iteration: 157
+System_time: 400
+Queue Size: 10
+cum_queue_size: 1140
+wait_time_0: 222
+wait_time_1: 3959
+CPU_busy_time: 400
+SERVER NODE: 	387 0 13 a 413,	
+SERVICE QUEUE: 	393 0 1 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      405 0 14 a 405,	
+FEL:          	407 0 2 a 407,	387 0 13 d 413,	414 0 11 a 414,	416 0 4 a 416,	423 0 5 a 423,	448 0 25 a 448,	455 0 1 a 455,	462 0 4 a 462,	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	
+
+
+Iteration: 158
+System_time: 405
+Queue Size: 11
+cum_queue_size: 1150
+wait_time_0: 222
+wait_time_1: 3959
+CPU_busy_time: 400
+SERVER NODE: 	387 0 13 a 413,	
+SERVICE QUEUE: 	393 0 1 a 69,	405 0 14 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      407 0 2 a 407,	
+FEL:          	387 0 13 d 413,	414 0 11 a 414,	416 0 4 a 416,	423 0 5 a 423,	448 0 25 a 448,	455 0 1 a 455,	462 0 4 a 462,	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	508 0 4 a 508,	
+
+
+Iteration: 159
+System_time: 407
+Queue Size: 12
+cum_queue_size: 1161
+wait_time_0: 222
+wait_time_1: 3959
+CPU_busy_time: 400
+SERVER NODE: 	387 0 13 a 413,	
+SERVICE QUEUE: 	393 0 1 a 69,	405 0 14 a 69,	407 0 2 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	
+NEXT EVENT:      387 0 13 d 413,	
+FEL:          	414 0 11 a 414,	416 0 4 a 416,	423 0 5 a 423,	448 0 25 a 448,	455 0 1 a 455,	462 0 4 a 462,	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	508 0 4 a 508,	520 0 4 a 520,	
+
+
+Iteration: 160
+System_time: 413
+Queue Size: 11
+cum_queue_size: 1161
+wait_time_0: 242
+wait_time_1: 3959
+CPU_busy_time: 413
+SERVER NODE: 	393 0 1 a 414,	
+SERVICE QUEUE: 	405 0 14 a 69,	407 0 2 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      414 0 11 a 414,	
+FEL:          	393 0 1 d 414,	416 0 4 a 416,	423 0 5 a 423,	448 0 25 a 448,	455 0 1 a 455,	462 0 4 a 462,	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	508 0 4 a 508,	520 0 4 a 520,	
+
+
+Iteration: 161
+System_time: 414
+Queue Size: 12
+cum_queue_size: 1172
+wait_time_0: 242
+wait_time_1: 3959
+CPU_busy_time: 413
+SERVER NODE: 	393 0 1 a 414,	
+SERVICE QUEUE: 	405 0 14 a 69,	407 0 2 a 69,	414 0 11 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	
+NEXT EVENT:      393 0 1 d 414,	
+FEL:          	416 0 4 a 416,	423 0 5 a 423,	448 0 25 a 448,	455 0 1 a 455,	462 0 4 a 462,	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	
+
+
+Iteration: 162
+System_time: 414
+Queue Size: 11
+cum_queue_size: 1172
+wait_time_0: 251
+wait_time_1: 3959
+CPU_busy_time: 414
+SERVER NODE: 	405 0 14 a 428,	
+SERVICE QUEUE: 	407 0 2 a 69,	414 0 11 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      416 0 4 a 416,	
+FEL:          	423 0 5 a 423,	405 0 14 d 428,	448 0 25 a 448,	455 0 1 a 455,	462 0 4 a 462,	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	
+
+
+Iteration: 163
+System_time: 416
+Queue Size: 12
+cum_queue_size: 1183
+wait_time_0: 251
+wait_time_1: 3959
+CPU_busy_time: 414
+SERVER NODE: 	405 0 14 a 428,	
+SERVICE QUEUE: 	407 0 2 a 69,	414 0 11 a 69,	416 0 4 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	
+NEXT EVENT:      423 0 5 a 423,	
+FEL:          	405 0 14 d 428,	448 0 25 a 448,	455 0 1 a 455,	462 0 4 a 462,	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	
+
+
+Iteration: 164
+System_time: 423
+Queue Size: 13
+cum_queue_size: 1195
+wait_time_0: 251
+wait_time_1: 3959
+CPU_busy_time: 414
+SERVER NODE: 	405 0 14 a 428,	
+SERVICE QUEUE: 	407 0 2 a 69,	414 0 11 a 69,	416 0 4 a 69,	423 0 5 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	
+NEXT EVENT:      405 0 14 d 428,	
+FEL:          	448 0 25 a 448,	455 0 1 a 455,	462 0 4 a 462,	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	
+
+
+Iteration: 165
+System_time: 428
+Queue Size: 12
+cum_queue_size: 1195
+wait_time_0: 272
+wait_time_1: 3959
+CPU_busy_time: 428
+SERVER NODE: 	407 0 2 a 430,	
+SERVICE QUEUE: 	414 0 11 a 69,	416 0 4 a 69,	423 0 5 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	
+NEXT EVENT:      407 0 2 d 430,	
+FEL:          	448 0 25 a 448,	455 0 1 a 455,	462 0 4 a 462,	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	
+
+
+Iteration: 166
+System_time: 430
+Queue Size: 11
+cum_queue_size: 1195
+wait_time_0: 288
+wait_time_1: 3959
+CPU_busy_time: 430
+SERVER NODE: 	414 0 11 a 441,	
+SERVICE QUEUE: 	416 0 4 a 69,	423 0 5 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      414 0 11 d 441,	
+FEL:          	448 0 25 a 448,	455 0 1 a 455,	462 0 4 a 462,	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	
+
+
+Iteration: 167
+System_time: 441
+Queue Size: 10
+cum_queue_size: 1195
+wait_time_0: 313
+wait_time_1: 3959
+CPU_busy_time: 441
+SERVER NODE: 	416 0 4 a 445,	
+SERVICE QUEUE: 	423 0 5 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      416 0 4 d 445,	
+FEL:          	448 0 25 a 448,	455 0 1 a 455,	462 0 4 a 462,	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	
+
+
+Iteration: 168
+System_time: 445
+Queue Size: 9
+cum_queue_size: 1195
+wait_time_0: 335
+wait_time_1: 3959
+CPU_busy_time: 445
+SERVER NODE: 	423 0 5 a 450,	
+SERVICE QUEUE: 	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      448 0 25 a 448,	
+FEL:          	423 0 5 d 450,	455 0 1 a 455,	462 0 4 a 462,	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	
+
+
+Iteration: 169
+System_time: 448
+Queue Size: 10
+cum_queue_size: 1204
+wait_time_0: 335
+wait_time_1: 3959
+CPU_busy_time: 445
+SERVER NODE: 	423 0 5 a 450,	
+SERVICE QUEUE: 	448 0 25 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      423 0 5 d 450,	
+FEL:          	455 0 1 a 455,	462 0 4 a 462,	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 170
+System_time: 450
+Queue Size: 9
+cum_queue_size: 1204
+wait_time_0: 337
+wait_time_1: 3959
+CPU_busy_time: 450
+SERVER NODE: 	448 0 25 a 475,	
+SERVICE QUEUE: 	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      455 0 1 a 455,	
+FEL:          	462 0 4 a 462,	448 0 25 d 475,	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 171
+System_time: 455
+Queue Size: 10
+cum_queue_size: 1213
+wait_time_0: 337
+wait_time_1: 3959
+CPU_busy_time: 450
+SERVER NODE: 	448 0 25 a 475,	
+SERVICE QUEUE: 	455 0 1 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      462 0 4 a 462,	
+FEL:          	448 0 25 d 475,	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 172
+System_time: 462
+Queue Size: 11
+cum_queue_size: 1223
+wait_time_0: 337
+wait_time_1: 3959
+CPU_busy_time: 450
+SERVER NODE: 	448 0 25 a 475,	
+SERVICE QUEUE: 	455 0 1 a 69,	462 0 4 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      448 0 25 d 475,	
+FEL:          	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 173
+System_time: 475
+Queue Size: 10
+cum_queue_size: 1223
+wait_time_0: 357
+wait_time_1: 3959
+CPU_busy_time: 475
+SERVER NODE: 	455 0 1 a 476,	
+SERVICE QUEUE: 	462 0 4 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      455 0 1 d 476,	
+FEL:          	477 0 6 a 477,	479 0 11 a 479,	483 0 3 a 483,	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 174
+System_time: 476
+Queue Size: 9
+cum_queue_size: 1223
+wait_time_0: 371
+wait_time_1: 3959
+CPU_busy_time: 476
+SERVER NODE: 	462 0 4 a 480,	
+SERVICE QUEUE: 	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      477 0 6 a 477,	
+FEL:          	479 0 11 a 479,	462 0 4 d 480,	483 0 3 a 483,	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 175
+System_time: 477
+Queue Size: 10
+cum_queue_size: 1232
+wait_time_0: 371
+wait_time_1: 3959
+CPU_busy_time: 476
+SERVER NODE: 	462 0 4 a 480,	
+SERVICE QUEUE: 	477 0 6 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      479 0 11 a 479,	
+FEL:          	462 0 4 d 480,	483 0 3 a 483,	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 176
+System_time: 479
+Queue Size: 11
+cum_queue_size: 1242
+wait_time_0: 371
+wait_time_1: 3959
+CPU_busy_time: 476
+SERVER NODE: 	462 0 4 a 480,	
+SERVICE QUEUE: 	477 0 6 a 69,	479 0 11 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      462 0 4 d 480,	
+FEL:          	483 0 3 a 483,	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 177
+System_time: 480
+Queue Size: 10
+cum_queue_size: 1242
+wait_time_0: 374
+wait_time_1: 3959
+CPU_busy_time: 480
+SERVER NODE: 	477 0 6 a 486,	
+SERVICE QUEUE: 	479 0 11 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      483 0 3 a 483,	
+FEL:          	477 0 6 d 486,	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 178
+System_time: 483
+Queue Size: 11
+cum_queue_size: 1252
+wait_time_0: 374
+wait_time_1: 3959
+CPU_busy_time: 480
+SERVER NODE: 	477 0 6 a 486,	
+SERVICE QUEUE: 	479 0 11 a 69,	483 0 3 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      477 0 6 d 486,	
+FEL:          	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 179
+System_time: 486
+Queue Size: 10
+cum_queue_size: 1252
+wait_time_0: 381
+wait_time_1: 3959
+CPU_busy_time: 486
+SERVER NODE: 	479 0 11 a 497,	
+SERVICE QUEUE: 	483 0 3 a 69,	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      479 0 11 d 497,	
+FEL:          	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 180
+System_time: 497
+Queue Size: 9
+cum_queue_size: 1252
+wait_time_0: 395
+wait_time_1: 3959
+CPU_busy_time: 497
+SERVER NODE: 	483 0 3 a 500,	
+SERVICE QUEUE: 	203 1 2 a 69,	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      483 0 3 d 500,	
+FEL:          	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 181
+System_time: 500
+Queue Size: 8
+cum_queue_size: 1252
+wait_time_0: 395
+wait_time_1: 4256
+CPU_busy_time: 500
+SERVER NODE: 	203 1 2 a 502,	
+SERVICE QUEUE: 	208 1 2 a 69,	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      203 1 2 d 502,	
+FEL:          	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 182
+System_time: 502
+Queue Size: 7
+cum_queue_size: 1252
+wait_time_0: 395
+wait_time_1: 4550
+CPU_busy_time: 502
+SERVER NODE: 	208 1 2 a 504,	
+SERVICE QUEUE: 	214 1 5 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      208 1 2 d 504,	
+FEL:          	508 0 4 a 508,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 183
+System_time: 504
+Queue Size: 6
+cum_queue_size: 1252
+wait_time_0: 395
+wait_time_1: 4840
+CPU_busy_time: 504
+SERVER NODE: 	214 1 5 a 509,	
+SERVICE QUEUE: 	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      508 0 4 a 508,	
+FEL:          	214 1 5 d 509,	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 184
+System_time: 508
+Queue Size: 7
+cum_queue_size: 1258
+wait_time_0: 395
+wait_time_1: 4840
+CPU_busy_time: 504
+SERVER NODE: 	214 1 5 a 509,	
+SERVICE QUEUE: 	508 0 4 a 69,	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      214 1 5 d 509,	
+FEL:          	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 185
+System_time: 509
+Queue Size: 6
+cum_queue_size: 1258
+wait_time_0: 396
+wait_time_1: 4840
+CPU_busy_time: 509
+SERVER NODE: 	508 0 4 a 513,	
+SERVICE QUEUE: 	215 1 2 a 69,	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      508 0 4 d 513,	
+FEL:          	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 186
+System_time: 513
+Queue Size: 5
+cum_queue_size: 1258
+wait_time_0: 396
+wait_time_1: 5138
+CPU_busy_time: 513
+SERVER NODE: 	215 1 2 a 515,	
+SERVICE QUEUE: 	218 1 1 a 69,	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      215 1 2 d 515,	
+FEL:          	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 187
+System_time: 515
+Queue Size: 4
+cum_queue_size: 1258
+wait_time_0: 396
+wait_time_1: 5435
+CPU_busy_time: 515
+SERVER NODE: 	218 1 1 a 516,	
+SERVICE QUEUE: 	219 1 6 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      218 1 1 d 516,	
+FEL:          	520 0 4 a 520,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 188
+System_time: 516
+Queue Size: 3
+cum_queue_size: 1258
+wait_time_0: 396
+wait_time_1: 5732
+CPU_busy_time: 516
+SERVER NODE: 	219 1 6 a 522,	
+SERVICE QUEUE: 	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      520 0 4 a 520,	
+FEL:          	219 1 6 d 522,	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 189
+System_time: 520
+Queue Size: 4
+cum_queue_size: 1261
+wait_time_0: 396
+wait_time_1: 5732
+CPU_busy_time: 516
+SERVER NODE: 	219 1 6 a 522,	
+SERVICE QUEUE: 	520 0 4 a 69,	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      219 1 6 d 522,	
+FEL:          	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 190
+System_time: 522
+Queue Size: 3
+cum_queue_size: 1261
+wait_time_0: 398
+wait_time_1: 5732
+CPU_busy_time: 522
+SERVER NODE: 	520 0 4 a 526,	
+SERVICE QUEUE: 	220 1 7 a 69,	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      520 0 4 d 526,	
+FEL:          	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 191
+System_time: 526
+Queue Size: 2
+cum_queue_size: 1261
+wait_time_0: 398
+wait_time_1: 6038
+CPU_busy_time: 526
+SERVER NODE: 	220 1 7 a 533,	
+SERVICE QUEUE: 	224 1 5 a 69,	229 1 7 a 69,	
+NEXT EVENT:      220 1 7 d 533,	
+FEL:          	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 192
+System_time: 533
+Queue Size: 1
+cum_queue_size: 1261
+wait_time_0: 398
+wait_time_1: 6347
+CPU_busy_time: 533
+SERVER NODE: 	224 1 5 a 538,	
+SERVICE QUEUE: 	229 1 7 a 69,	
+NEXT EVENT:      224 1 5 d 538,	
+FEL:          	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 193
+System_time: 538
+Queue Size: 0
+cum_queue_size: 1261
+wait_time_0: 398
+wait_time_1: 6656
+CPU_busy_time: 538
+SERVER NODE: 	229 1 7 a 545,	
+SERVICE QUEUE: 	
+NEXT EVENT:      229 1 7 d 545,	
+FEL:          	556 0 1 a 556,	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 194
+System_time: 545
+Queue Size: 0
+cum_queue_size: 1261
+wait_time_0: 398
+wait_time_1: 6656
+CPU_busy_time: 545
+SERVER NODE: 	
+SERVICE QUEUE: 	
+NEXT EVENT:      556 0 1 a 556,	
+FEL:          	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 195
+System_time: 556
+Queue Size: 0
+cum_queue_size: 1261
+wait_time_0: 398
+wait_time_1: 6656
+CPU_busy_time: 545
+SERVER NODE: 	556 0 1 a 556,	
+SERVICE QUEUE: 	
+NEXT EVENT:      556 0 1 d 557,	
+FEL:          	570 0 11 a 570,	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 196
+System_time: 557
+Queue Size: 0
+cum_queue_size: 1261
+wait_time_0: 398
+wait_time_1: 6656
+CPU_busy_time: 546
+SERVER NODE: 	
+SERVICE QUEUE: 	
+NEXT EVENT:      570 0 11 a 570,	
+FEL:          	580 0 5 a 580,	603 0 11 a 603,	
+
+
+Iteration: 197
+System_time: 570
+Queue Size: 0
+cum_queue_size: 1261
+wait_time_0: 398
+wait_time_1: 6656
+CPU_busy_time: 546
+SERVER NODE: 	570 0 11 a 570,	
+SERVICE QUEUE: 	
+NEXT EVENT:      580 0 5 a 580,	
+FEL:          	570 0 11 d 581,	603 0 11 a 603,	
+
+
+Iteration: 198
+System_time: 580
+Queue Size: 1
+cum_queue_size: 1261
+wait_time_0: 398
+wait_time_1: 6656
+CPU_busy_time: 546
+SERVER NODE: 	570 0 11 a 570,	
+SERVICE QUEUE: 	580 0 5 a 69,	
+NEXT EVENT:      570 0 11 d 581,	
+FEL:          	603 0 11 a 603,	
+
+
+Iteration: 199
+System_time: 581
+Queue Size: 0
+cum_queue_size: 1261
+wait_time_0: 399
+wait_time_1: 6656
+CPU_busy_time: 557
+SERVER NODE: 	580 0 5 a 586,	
+SERVICE QUEUE: 	
+NEXT EVENT:      580 0 5 d 586,	
+FEL:          	603 0 11 a 603,	
+
+
+Iteration: 200
+System_time: 586
+Queue Size: 0
+cum_queue_size: 1261
+wait_time_0: 399
+wait_time_1: 6656
+CPU_busy_time: 562
+SERVER NODE: 	
+SERVICE QUEUE: 	
+NEXT EVENT:      603 0 11 a 603,	
+FEL:          	
+
+
+Iteration: 201
+System_time: 603
+Queue Size: 0
+cum_queue_size: 1261
+wait_time_0: 399
+wait_time_1: 6656
+CPU_busy_time: 562
+SERVER NODE: 	603 0 11 a 603,	
+SERVICE QUEUE: 	
+NEXT EVENT:      603 0 11 d 614,	
+FEL:          	
